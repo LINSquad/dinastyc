@@ -1,0 +1,17 @@
+{{#if service.imageFirst}}
+    <div class="service _image-first">
+{{else}}
+    <div class="service">
+{{/if}}
+    <h3 class="service__title">{{service.title}}</h3>
+
+    {{#if service.description}}
+        <div class="service__description">{{service.description}}</div>
+    {{/if}}
+
+    <div class="service__image">
+        <img class="service__img" src="{{service.img}}" alt="">
+    </div>
+
+    <div class="service__all"><a href="#">ПОДРОБНЕЕ</a></div>
+</div>

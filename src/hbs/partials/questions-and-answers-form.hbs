@@ -1,0 +1,24 @@
+<div class="questions-and-answers-forms">
+    <h2>Не нашли ответ на свой вопрос? Заполните форму ниже, специалисты нашего
+        центра дадут вам развернутый ответ</h2>
+    <form class="questions-and-answers-form">
+        <div class="modal-form__input">
+            {{> input-container label="* Ваше имя" type="text"}}
+            {{> input-container label="* Ваш номер телефона" type="number"}}
+            {{> input-container label="* Укажите, пожалуйста, ваш e-mail" type="email"}}
+            <textarea placeholder="* Введите пожалуйста, Ваш вопрос"></textarea>
+        </div>
+
+        <p>Информация, оправленная через данную форму не является официальным обращением и не подлежит обязательному ответу<br>
+            Заполняя форму, вы подтверждаете свое <span class="text-of-agreement-open">согласие на обработку вносимых в нее ваших персональных данных</span></p>
+
+
+        <p class="form-title-p">     </p>
+        <div class="questions-and-answers-forms__btn">
+            <button class="main-button disactive">
+                <input class="checkbox" type="checkbox" name="checkbox">
+                <label>Я не робот!</label>
+            </button>
+        </div>
+    </form>
+</div>

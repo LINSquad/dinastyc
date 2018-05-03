@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dinastyc</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+<div class="wrapper">
+    {{> header}}
+
+    <main class="content">
+        <div class="main-url"><a href="../index.html">Главная</a> / <a href="../about-the-center.html">О центре</a> / <span>Отзывы</span></div>
+        <h1 class="infertility-treatment-title__h1">ОТЗЫВЫ</h1>
+        <button class="btn reviews-btn">ОТПРАВИТЬ ОТЗЫВ</button>
+
+        <h2 class="reviews-title__h2">УВАЖАЕМЫЕ ПАЦИЕНТЫ!</h2>
+        <div class="conteiner-title">
+            {{> reviews-title}}
+            {{> reviews-image}}
+        </div>
+
+        {{> time-scroll-reviews}}
+        {{> reviews-bottom}}
+
+        {{> subscribe}}
+    </main>
+
+    {{> footer}}
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="assets/script/vendor.js"></script>
+<script src="assets/script/script.js"></script>
+</body>
+</html>

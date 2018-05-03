@@ -1,0 +1,183 @@
+<header class="header">
+    <div class="container-fluid">
+        <div class="row header__top">
+            <div class="col-md-2">
+                <a href="{{href.index}}" class="logo">
+                    <img class="logo__img" src="assets/images/logo.png" alt="Династия" width="180" height="197">
+                </a>
+            </div>
+
+            <div class="col-md-7">
+                <ul class="social">
+                    {{> socials icon='fa-vk' href='#"'}}
+                    {{> socials icon='fa-twitter' href='#"'}}
+                    {{> socials icon='fa-instagram' href='#"'}}
+                    {{> socials icon='fa-youtube' href='#"'}}
+                </ul>
+
+                <h1 class="title _h3">{{dinastyFullNameTop}}<br>{{dinastyFullNameBottom}}</h1>
+            </div>
+
+            <div class="col-md-2">
+                <div class="header-contacts">
+                    <div class="header-contacts__adress">{{adress.city}}, {{adress.street}}</div>
+                    <a href="#" class="header-contacts__phone">{{phone}}</a>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+                <div class="header-block">
+                    <a href="#" class="header-block__link">адреса всех клиник</a>
+
+                    <div class="search-forms">
+                        <div class="search-form">
+                            <input type="text" class="search-form__input">
+                            <button class="close-search-form">✘</button>
+                            <button class="search-form__button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <button class="accessibility"><i class="fab fa-accessible-icon"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end header__bottom">
+            <div class="button-menu-320">
+                ≡
+            </div>
+            <div class="col-md-6">
+                {{> menu-main}}
+            </div>
+
+            <div class="col-md-3">
+                <button class="main-button _red main_button_service">Заказать звонок</button>
+                <button class="main-button _white main_button_payment">Оплатить услуги</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Модалки-->
+
+    <div class="modal-form modal-form-request_a_call">
+        <form action="" class="modal-form__feadback">
+            <div class="form__title">
+                Сделайте первый шаг к счастливой семье - закажите звонок специалиста
+                <p>        </p>
+            </div>
+
+            <div class="close_modal-form">X</div>
+
+            {{> input-container label="* Ваше имя" type="text"}}
+            {{> input-container label="* Номер телефона" type="tel"}}
+
+            <input type="checkbox" name="checkbox">
+            <label>
+                Я даю согласие на получение SMS и e-mail  рассылки
+            </label>
+            <br>
+
+            <button class="main-button disactive">
+                <input type="checkbox" name="checkbox">Я не робот!
+            </button>
+
+            <p>Заполняя форму, вы подтверждаете свое <span class="text-of-agreement-open">согласие на обработку вносимых в нее ваших персональных данных</span></p>
+
+        </form>
+    </div>
+
+    <div class="modal-form modal-form-payment-if">
+        <div class="form__title">
+            ОПЛАТИТЬ УСЛУГИ
+        </div>
+        <div class="close_modal-form close_modal-form-payment-if">X</div>
+
+        <p class="form-title-p">     </p>
+
+        <p>У Вас есть договор?</p>
+
+        <button class="main-button _red main-button-payment-if-yes">
+            ДА
+        </button>
+
+        <button class="main-button _white main-button-payment-if-no">
+            НЕТ, ВЫБРАТЬ УСЛУГУ
+        </button>
+    </div>
+
+    <div class="modal-form modal-form-payment">
+        <form action="" class="modal-form__feadback">
+            <div class="form__title">
+                СОВЕРШИТЬ ПЛАТЕЖ ЗА УСЛУГУ
+            </div>
+
+            <div class="close_modal-form close_modal-form-payment">X</div>
+
+            <div class="modal-form__input">
+                {{> input-container label="* Номер договора" type="number"}}
+                {{> input-container label="* Укажите сумму (в рублях), которую вы хотите оплатить" type="number"}}
+                {{> input-container label="* Укажите ФИО человека, с которым заключен договор" type="text"}}
+                {{> input-container label="* Укажите, пожалуйста, ваш e-mail" type="email"}}
+            </div>
+
+            <p>Заполняя форму, вы подтверждаете свое <span class="text-of-agreement-open">согласие на обработку вносимых в нее ваших персональных данных</span></p>
+
+            <br>
+
+            <p class="form-title-p">     </p>
+            <input type="checkbox" name="checkbox">
+            <label>
+                Я даю согласие на получение SMS и e-mail  рассылки
+            </label>
+            <br>
+
+            <button class="main-button disactive">
+                <input type="checkbox" name="checkbox">Я не робот!
+            </button>
+
+        </form>
+    </div>
+
+    <div class="modal-form text-of-agreement">
+        <div class="close_modal-form close_modal-text-of-agreement">X</div>
+        <div class="container">
+            <div>
+                <p>Согласие на обработку персональных данных</p>
+                <p>Настоящим в соответствии с Федеральным законом № 152-ФЗ "О персональных данных" от 27.07.2006
+                    года свободно, своей волей и в своем интересе выражаю свое безусловное согласие на обработку
+                    моих персональных данных ООО "ТАУРУС" (ОГРН 1166313154842, ИНН 6316228651),
+                    зарегистрированным в соответствии с законодательством РФ по адресу:</p>
+                <p>КАРЛА МАРКСА, ДОМ 185, ЛИТЕР Г, КОМНАТА 4, САМАРА, ОКТЯБРЬСКИЙ, САМАРСКАЯ ОБЛАСТЬ,
+                Россия, 443080 (далее по тексту - Оператор).</p>
+                <p>Персональные данные - любая информация, относящаяся к определенному или определяемому на
+                основании такой информации физическому лицу.</p>
+                <p>Настоящее Согласие выдано мною на обработку следующих персональных данных:</p>
+                <p>- Имя и Фамилия;</p>
+                <p>- Адрес электронной почты;</p>
+                <p>- Телефон;</p>
+                <p>- Фотография.</p>
+            </div>
+            <div>
+                <p>Согласие дано Оператору для совершения следующих действий с моими персональными данными с
+                использованием средств автоматизации и/или без использования таких средств: сбор, систематизация,
+                накопление, хранение, уточнение (обновление, изменение), использование, обезличивание, а также
+                осуществление любых иных действий, предусмотренных действующим законодательством РФ как
+                неавтоматизированными, так и автоматизированными способами.</p>
+                <p>Данное согласие дается Оператору для обработки моих персональных данных в следуюших целях:</p>
+                <p>- предоставление мне услуг/работ;</p>
+                <p>- Направление в мой адрес уведомлений, касающихся предоставляемых услуг/работ;</p>
+                <p>- подготовка и направлениие ответов на мои запросы;</p>
+                <p>- направление в мой адрес информации, в том числе рекламной, о
+                    мероприятиях/товарах/услугах/работах Оператора.</p>
+            </div>
+            <div>
+                <p>Настоящее согласие действует до моменты его отзыва путем направления соответствующего
+                уведомления на электронный адрес igor.st@taurus.team. В случае отзыва мною согласия <span>На обработку
+                    персональных данных Оператор впраде продолжить обработку персональных данных без моего согласия при наличии оснований,
+                    указанных в пунктах 2 - 11 части 1 статьи 6, части 2 статьи 10 и части 2 статьи 11 Федерального закона №152-ФЗ "О персональных данных"
+                    от 26.06.2006 г.</span></p>
+                <p><span>ВЫБОР TAURUSм</span></p>
+            </div>
+        </div>
+    </div>
+</header>

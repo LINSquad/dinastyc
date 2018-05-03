@@ -1,0 +1,55 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .main-url,
+  .infertility-treatment-title__h1,
+  .donor-programs {
+    margin-left: 100px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 42px;
+  }
+
+  .conteiner-title {
+    margin-left: 175px;
+    margin-right: 100px;
+  }
+
+  .donor-program-image {
+    flex-basis: 48%;
+    margin-top: 15px;
+  }
+
+  .donor-program {
+    flex-basis: 60%;
+    margin-right: 15px;
+  }
+
+  .donor-program-info {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .donor-program-info__become,
+  .donor-program-info__take-advantage {
+    font-size: 13px;
+  }
+
+  .donor-program-info-slide__egg,
+  .donor-program-info-slide__sperm {
+    font-size: 18px;
+  }
+
+  .donor-program-info__button,
+  .donor-program-info-slide__donors {
+    margin-bottom: 60px;
+  }
+
+  .donor-program-info-sliders h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .donor-program-info-slide, .take-advantage {
+    width: 67%;
+  }
+}

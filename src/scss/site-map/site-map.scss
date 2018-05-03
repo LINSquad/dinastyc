@@ -1,0 +1,55 @@
+.site-map__conteiner {
+  margin-left: 375px;
+  margin-right: 225px;
+  margin-top: 135px;
+  margin-bottom: 135px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-map__block {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+}
+
+.site-map__title,
+.site-map__l1,
+.site-map__l2 {
+  line-height: 36px;
+}
+
+.site-map__title:hover a,
+.site-map__l1:hover,
+.site-map__l2:hover {
+  border-bottom: 1px solid #7a231c;
+}
+
+a.site-map__l2 {
+  margin-left: 20px;
+}
+
+.site-map__title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+//Результаты поиска
+
+.search-rezult {
+  margin: 70px 225px 100px;
+}
+
+.search__block {
+  margin-left: 200px;
+  margin-top: 60px;
+  width: 55%;
+}
+
+.search__block p {
+  line-height: 24px;
+}
+
+.search__block p.title {
+  font-weight: bold;
+}

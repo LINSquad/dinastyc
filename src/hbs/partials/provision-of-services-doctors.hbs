@@ -1,0 +1,35 @@
+<div class="doctor">
+    <h4>{{doctors.position}}</h4>
+    <div class="info">
+        {{#if doctors.name}}
+            <p><span>{{doctors.name}}</span></p>
+        {{/if}}
+        {{#if doctors.info}}
+            <p>{{doctors.info}}</p>
+        {{/if}}
+    </div>
+    {{#if doctors.adress}}
+        <p><span>Адрес:</span>{{doctors.adress}}</p>
+    {{/if}}
+
+    <div class="phone">
+        {{#if doctors.phone1}}
+            <div class="phone-text"><span>Телефон: </span></div>
+        {{/if}}
+        <div class="phone-number">
+            {{#if doctors.phone1}}
+                <p>{{doctors.phone1}}</p>
+            {{/if}}
+            {{#if doctors.phone2}}
+                <p>{{doctors.phone2}}</p>
+            {{/if}}
+        </div>
+    </div>
+
+    {{#if doctors.email}}
+        <p><span>E-mail:</span>{{doctors.email}}</p>
+    {{/if}}
+    {{#if doctors.reception}}
+        <p><span>Прием граждан:</span>{{doctors.reception}}</p>
+    {{/if}}
+</div>

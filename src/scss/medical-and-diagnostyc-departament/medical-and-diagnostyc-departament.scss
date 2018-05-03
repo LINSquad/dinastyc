@@ -1,0 +1,161 @@
+.medical-and-diagnostic-departments__title {
+  font-size: 24px;
+  margin-left: 375px;
+  margin-top: 60px;
+  width: 40%;
+}
+
+.medical-and-diagnostic-departaments-info__donors {
+  margin: 100px 225px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button.medical-and-diagnostic-departaments-info__guide,
+button.medical-and-diagnostic-departaments-info__offices {
+  font-size: 18px;
+}
+
+button.active {
+  color: #7a231c;
+}
+
+.medical-and-diagnostic-departaments-info-slide{
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.medical-and-diagnostic-departaments-info-slide h4 {
+  font-size: 30px;
+  margin-bottom: 75px;
+}
+
+.medical-and-diagnostic-departaments-block {
+  margin-left: 150px;
+  margin-bottom: 135px;
+  display: flex;
+}
+
+.medical-and-diagnostic-departaments-conteiner {
+  flex-basis: 50%;
+}
+
+.medical-and-diagnostic-departaments-img {
+  flex-basis: 35%;
+}
+
+.medical-and-diagnostic-departaments-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.medical-and-diagnostic-departaments-conteiner .doctor {
+  width: 100%;
+}
+
+.medical-and-diagnostic-departaments-conteiner .doctor h4 {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.medical-and-diagnostic-departaments-conteiner .phone-text {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.medical-and-diagnostic-departaments-btn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+a.medical-and-diagnostic-departaments-btn__link {
+  margin-top: 45px;
+  color: #9a9a9a;
+}
+
+.medical-and-diagnostic-departaments-btn .btn {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #303030;
+}
+
+.medical-and-diagnostic-departaments-btn .btn:hover {
+  background-color: #7a231c;
+  border: #7a231c;
+  color: white;
+}
+
+.medical-and-diagnostic-departaments-info-slide__offices_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.medical-and-diagnostic-departaments-offices-block .medical-and-diagnostic-departaments-img {
+  margin-bottom: 45px;
+}
+
+.medical-and-diagnostic-departaments-offices-block .medical-and-diagnostic-departaments-btn__link {
+  font-size: 20px;
+  color: #303030;
+}
+
+.medical-and-diagnostic-departaments-offices-block .medical-and-diagnostic-departaments-link {
+  width: 550px;
+}
+
+.medical-and-diagnostic-departaments-offices-block {
+  margin-bottom: 80px;
+}
+
+
+//paid-services
+
+.paid-services-employees {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.paid-services-employees__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paid-services-employees__container .service__title,
+.paid-services-employees__container .service__description {
+  width: 100%;
+}
+
+.paid-services-employees__container .service__title{
+  margin-top: 20px;
+}
+
+.paid-services-employees__container .service__description {
+  color: #9a9a9a;
+}
+
+.paid-services-employees h2{
+  margin-bottom: 70px;
+}
+
+.quality-indicators-title .paid-services-employees-image {
+  margin-right: 60px;
+}
+
+.paid-services {
+  flex-basis: 65%;
+  margin-top: 50px;
+}
+
+.paid-services-employees__h2 {
+  margin-bottom: 40px;
+}
+
+.paid-services .quality-indicators-image {
+  margin-top: 50px;
+}

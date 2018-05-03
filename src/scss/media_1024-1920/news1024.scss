@@ -1,0 +1,43 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+
+  .horizontal-elements {
+    margin-left: 120px;
+  }
+
+  .news {
+    border-right: 1px solid #7a231c;
+  }
+
+  .news-block {
+    margin-top: 75px;
+  }
+
+  .news-block:last-child {
+    margin-top: 20px;
+  }
+
+  .news-block__img {
+    width: 230px;
+    height: 230px;
+    margin-right: 20px;
+  }
+
+  .news-block__title {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .news-block__text {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .news-block__date {
+    font-size: 12px;
+  }
+
+  .news-block__link {
+    font-size: 14px;
+  }
+}

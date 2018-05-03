@@ -1,0 +1,36 @@
+<div class="prices-search">
+    {{> input-container label="Введите запрос" type="text"}}
+    <button class="btn prices-search__btn">Найти</button>
+    <button class="btn prices-close__btn">X</button>
+</div>
+
+
+<div class="questions-and-answers-forms prices-forms">
+    <form action="" class="modal-form__feadback">
+        <div class="form__title">
+            ОПЛАТА ПО НОМЕРУ ДОГОВОРА
+        </div>
+
+        <div class="modal-form__input">
+            {{> input-container label="* Номер договора" type="number"}}
+            {{> input-container label="* Укажите сумму (в рублях), которую вы хотите оплатить" type="number"}}
+            {{> input-container label="* Укажите ФИО человека, с которым заключен договор" type="text"}}
+            {{> input-container label="* Укажите, пожалуйста, ваш e-mail" type="email"}}
+        </div>
+
+        <p>Заполняя форму, вы подтверждаете свое <span class="text-of-agreement-open">согласие на обработку вносимых в нее ваших персональных данных</span></p>
+
+        <br>
+
+        <input type="checkbox" name="checkbox">
+        <label>
+            Я даю согласие на получение SMS и e-mail  рассылки
+        </label>
+        <br>
+
+        <button class="main-button disactive">
+            <input type="checkbox" name="checkbox">Я не робот!
+        </button>
+
+    </form>
+</div>

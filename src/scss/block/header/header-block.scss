@@ -1,0 +1,222 @@
+.header-block {
+
+  &__link {
+    display: inline-block;
+    font-size: $font-size-xs;
+    margin-bottom: $header-top-margin-bottom;
+  }
+}
+
+.header-block .search-form__input {
+  display: none;
+  position: absolute;
+  width: 480px;
+  top: -7px;
+  left: -480px;
+}
+
+.header-block .close-search-form {
+  display: none;
+  position: absolute;
+  width: 50px;
+  font-size: 36px;
+  top: -9px;
+  left: 0;
+  background-color: white;
+  color: #7a231c;
+  cursor: pointer;
+}
+
+.search-forms {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.accessibility {
+   margin-left: 40px;
+}
+
+.modal-form__input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-form {
+  display: none;
+  position: fixed;
+  top: 15%;
+  left: 25%;
+  min-width: 55%;
+  background: white;
+  z-index: 3;
+  text-align: center;
+  box-shadow: 0 0 100px 0 black;
+}
+
+.modal-form-payment {
+  left: 15%;
+  min-width: 75%;
+}
+
+.modal-form form {
+  position: relative;
+}
+
+.modal-form .form__title {
+  font-size: 30px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  line-height: 60px;
+}
+
+.modal-form .form__title p {
+  margin: auto;
+  margin-top: 50px;
+  width: 140px;
+  border-bottom: 2px solid #7a231c;
+}
+
+.modal-form .close_modal-form {
+  position: absolute;
+  top: 0;
+  right: 48px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.modal-form input[type="tel"],
+.modal-form input[type="text"] {
+  width: 450px;
+  font-size: 22px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.modal-form .modal-form__input .input-container {
+  margin: auto;
+  flex-basis: 45%;
+}
+
+.modal-form .modal-form__input input[type="number"],
+.modal-form .modal-form__input input[type="email"],
+.modal-form .modal-form__input input[type="text"] {
+  width: 100%;
+  font-size: 20px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.modal-form label,
+.modal-form p {
+  font-size: 18px;
+}
+
+.modal-form p {
+  font-size: 18px;
+}
+
+.modal-form .main-button {
+  width: 450px;
+  height: 60px;
+  font-size: 24px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.modal-form p {
+  margin-bottom: 50px;
+}
+
+.modal-form-payment p {
+  margin-left: 35px;
+  text-align: left;
+}
+
+.modal-form-payment label,
+.modal-form-payment p {
+  font-size: 16px;
+}
+
+.modal-form-payment .form-title-p,
+.modal-form-payment-if .form-title-p {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 140px;
+  border-bottom: 2px solid #7a231c;
+}
+
+.modal-form-payment .main-button {
+  margin-top: 50px;
+}
+
+.modal-form-payment-if {
+  top: 20%;
+}
+
+.modal-form-payment-if .close_modal-form {
+  top: 55px;
+
+}
+
+.modal-form-payment-if .main-button {
+  width: 30%;
+}
+
+.modal-form-payment-if .main-button._white {
+  margin-left: 50px;
+  background-color: #f1f1f1;
+}
+
+.modal-form-payment-if .main-button {
+  margin-top: 10px;
+}
+
+.text-of-agreement {
+  text-align: left;
+  padding: 60px;
+  padding-top: 40px;
+  padding-bottom: 0;
+  width: 62%;
+  top: 3%;
+  left: 20%;
+}
+
+.text-of-agreement .container {
+  width: 78%;
+  float: left;
+}
+
+.text-of-agreement div p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-of-agreement div {
+  margin-bottom: 20px;
+}
+.text-of-agreement .container div:last-child{
+  margin-bottom: 0;
+}
+
+.text-of-agreement .container div:last-child p {
+  line-height: 35px;
+}
+
+.text-of-agreement .container span {
+  font-size: 13px;
+}
+
+.text-of-agreement .close_modal-text-of-agreement {
+  top: 45px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.row .col-md-3 {
+  padding-left: 0;
+}

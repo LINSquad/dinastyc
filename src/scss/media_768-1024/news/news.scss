@@ -1,0 +1,49 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .time-scroll {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+  }
+
+  .news-action {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .time-scroll__monthes {
+    flex-wrap: wrap;
+  }
+
+  .time-scroll__month {
+    flex-basis: 100%;
+  }
+
+  .years {
+    font-size: 18px;
+    padding: 30px 6.5%;
+  }
+
+  .month {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+  }
+
+  .month__7 {
+    padding-left: 0;
+  }
+
+  .month__6 {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .month__1 {
+    padding-left: 0;
+  }
+
+  .month__12 {
+    padding-right: 0;
+    border-right: 0;
+  }
+}

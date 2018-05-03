@@ -1,0 +1,39 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .careers__h1 {
+    margin-bottom: 50px;
+  }
+
+  .careers__block {
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+  }
+
+  .careers__block__duties {
+    order: 0;
+  }
+
+  .careers__block__btn {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .careers__block__btn,
+  .careers__block__demands,
+  .careers__block__contacts,
+  .careers__block__duties {
+    width: 100%;
+  }
+
+  .careers__block__container {
+    height: 100%;
+  }
+
+  .careers__block__container .careers__title {
+    font-size: 20px;
+  }
+
+  .careers__block:before {
+    width: 100%;
+  }
+}

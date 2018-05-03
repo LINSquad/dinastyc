@@ -1,0 +1,28 @@
+<section class="services">
+    {{> section-title text='Услуги'}}
+    <div class="geometry1"></div>
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-2 block__1">
+            {{> service-item service=services.[0]}}
+        </div>
+        <div class="col-md-4 block__2">
+            {{> service-item service=services.[1]}}
+            {{> service-item service=services.[2]}}
+        </div>
+        <div class="col-md-2 block__3">
+            {{> service-item service=services.[3]}}
+            {{> service-item service=services.[4]}}
+        </div>
+        <div class="col-md-2 block__4">
+            {{> service-item service=services.[5]}}
+            {{> service-item service=services.[6]}}
+            {{> service-item service=services.[7]}}
+        </div>
+
+    </div>
+
+    {{> achievements}}
+    <div class="geometry2"></div>
+</section>

@@ -1,0 +1,35 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.header {
+  padding-top: 22px;
+
+  &__bottom {
+    height: 60px;
+    margin-top: -45px;
+    z-index: 20;
+    background: #fff;
+    box-shadow: 0 10px 60px -25px #303030;
+  }
+}
+
+.logo__img {
+  margin-left: 100px;
+}
+
+.button-menu-320 {
+  display: none;
+}
+
+
+.main-url {
+  margin-left: 225px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.main-url span{
+  border-bottom: 1px solid #f1f1f1;
+}

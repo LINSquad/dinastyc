@@ -1,0 +1,30 @@
+<ul class="menu-main">
+    {{#each mainMenu as |menuItem|}}
+
+        {{#if menuItem.subMenu}}
+            <li class="menu-main__item _has-submenu">
+                <div class="menu-main__items _has-submenu">
+                    <a href="{{menuItem.href}}" class="menu-main__link">{{menuItem.name}}</a>
+
+                    <div class="menu-main__line"></div>
+
+                </div>
+                <ul class="menu-main-submenu">
+                    <div class="menu-main-submenu-container">
+                        {{#each menuItem.subMenu as |subMenuItem|}}
+                            <li class="menu-main-submenu__item">
+                                <a href="{{subMenuItem.href}}" class="menu-main-submenu__link">
+                                    {{subMenuItem.name}}
+                                </a>
+                            </li>
+                        {{/each}}
+                    </div>
+                </ul>
+            </li>
+        {{else}}
+            <li class="menu-main__item">
+                <a href="{{menuItem.href}}" class="menu-main__link">{{menuItem.name}}</a>
+            </li>
+        {{/if}}
+    {{/each}}
+</ul>

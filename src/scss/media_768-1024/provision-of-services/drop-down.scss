@@ -1,0 +1,87 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .main-url,
+  .infertility-treatment-title__h1,
+  .provision-of-services {
+    margin-left: 80px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 36px;
+  }
+
+  .provision-of-services .drop-down__service {
+    margin-left: 0;
+  }
+
+  .provision-of-services .drop-down__service {
+    width: 92%;
+  }
+
+  .doctor p {
+    font-size: 14px;
+  }
+
+  .provision-of-services .drop-down__service  .document p {
+    flex-basis: 100%;
+  }
+
+  .provision-of-services .drop-down__service__display .document p {
+    font-size: 14px;
+  }
+
+  .drop-down__service p {
+    flex-basis: 45%;
+  }
+
+  .provision-of-services .drop-down__service__display .grounds {
+    font-size: 14px;
+    justify-content: space-between;
+  }
+
+  .provision-of-services .drop-down__service_4 p,
+  .provision-of-services .drop-down__service_5 p,
+  .provision-of-services .drop-down__service_6 p {
+    font-size: 14px;
+  }
+
+  .phone-text {
+    font-size: 14px;
+  }
+
+  .provision-of-services h3 {
+    font-size: 22px;
+  }
+
+  .provision-of-services h4 {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .provision-of-services .drop-down__service_1 .drop-down__service__display {
+    height: 1950px;
+  }
+
+  .provision-of-services .drop-down__service_2 .drop-down__service__display {
+    height: 210px;
+  }
+
+  .provision-of-services .drop-down__service_3 .drop-down__service__display {
+    height: 870px;
+  }
+
+  .provision-of-services .drop-down__service_4 .drop-down__service__display {
+    height: 1060px;
+  }
+
+  .provision-of-services .drop-down__service_5 .drop-down__service__display {
+    height: 510px;
+  }
+
+  .provision-of-services .drop-down__service_6 .drop-down__service__display {
+    height: 1140px;
+  }
+
+  .doctor {
+    width: 48%;
+  }
+}

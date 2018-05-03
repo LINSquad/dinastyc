@@ -1,0 +1,63 @@
+.patients-container {
+  margin-left: 225px;
+  margin-right: 225px;
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.patients-link {
+  background-color: #f2f2f2;
+  height: 85px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  padding-top: 34px;
+}
+
+.patients-link a {
+  background-color: #f2f2f2;
+  height: 85px;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.patients-link:nth-child(1),
+.patients-link:nth-child(2),
+.patients-link:nth-child(6),
+.patients-link:nth-child(7) {
+  flex-basis: 49%;
+}
+
+.patients-link:nth-child(3),
+.patients-link:nth-child(5) {
+  flex-basis: 28%;
+}
+
+.patients-link:nth-child(4) {
+  flex-basis: 40%;
+}
+
+.patients-link:hover {
+  background-color: #7a231c;
+}
+
+.patients-link:hover a {
+  background-color: #7a231c;
+  color: white;
+}
+
+.patients-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 120px 225px 80px 225px;
+}
+
+
+.patients-bottom p {
+  flex-basis: 38%;
+}

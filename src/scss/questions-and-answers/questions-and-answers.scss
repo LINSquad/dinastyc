@@ -1,0 +1,78 @@
+.questions-and-answers-top {
+  margin-top: 100px;
+  margin-left: 225px;
+  margin-bottom: 150px;
+  width: 70%;
+}
+
+.questions-and-answers-top .drop-down__service {
+  width: 100%;
+}
+
+.questions-and-answers-forms {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.questions-and-answers-forms h2{
+  width: 85%;
+}
+
+.questions-and-answers-forms .questions-and-answers-form {
+  margin: 80px 40px 180px 120px;
+}
+
+.questions-and-answers-forms textarea {
+  height: 110px;
+  flex-basis: 100%;
+  border: 1px solid #e2e2e2;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+}
+
+.questions-and-answers-forms .modal-form__input {
+  justify-content: space-between;
+}
+
+.questions-and-answers-forms .input-container {
+  flex-basis: 32%;
+}
+
+.questions-and-answers-forms input[type="email"],
+.questions-and-answers-forms input[type="number"],
+.questions-and-answers-forms input[type="password"],
+.questions-and-answers-forms input[type="tel"],
+.questions-and-answers-forms input[type="url"],
+.questions-and-answers-forms input[type="text"] {
+  width: 100%;
+}
+
+.questions-and-answers-forms p {
+  color: #9a9a9a;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.questions-and-answers-forms .main-button {
+  height: 60px;
+  width: 370px;
+}
+
+.questions-and-answers-forms__btn {
+  margin-top: 45px;
+  text-align: center;
+}
+
+
+.questions-and-answers-forms .form-title-p {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 140px;
+  border-bottom: 2px solid #7a231c;
+}
+
+.questions-and-answers-forms  .news-action {
+  margin-left: 0;
+  margin-right: 0;
+}

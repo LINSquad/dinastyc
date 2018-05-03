@@ -1,0 +1,29 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .oms {
+    margin-left: 0;
+  }
+
+  .oms_container {
+    display: flex;
+    margin-left: -20px;
+    margin-top: 75px;
+    width: 95%;
+  }
+
+  .oms_container img {
+    width: 110px;
+    height: 120px;
+    margin-left: 0;
+  }
+
+  .oms_container p {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+  }
+
+}

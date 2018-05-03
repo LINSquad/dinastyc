@@ -1,0 +1,15 @@
+<section class="news">
+    {{> section-title text='Новости'}}
+
+    {{#each news as |news|}}
+        <div class="news-block">
+            <img class="news-block__img" src="{{news.img}}"/>
+            <div class="news-block__content">
+                <div class="news-block__title">{{news.title}}</div>
+                <div class="news-block__date">{{news.date}}</div>
+                <div class="news-block__text">{{news.description}}</div>
+                <a href="{{news.link}}" class="news-block__link">подробнее</a>
+            </div>
+        </div>
+    {{/each}}
+</section>

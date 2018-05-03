@@ -1,0 +1,57 @@
+.quality-indicators-title {
+  margin-top: 160px;
+  flex-basis: 44%;
+}
+
+.quality-indicators-image {
+  margin-top: 200px;
+  flex-basis: 31%;
+}
+
+.quality-indicators-image .service__description {
+  width: 100%;
+  font-size: 17px;
+  text-align: right;
+  color: #9a9a9a;
+}
+
+.quality-indicators-image .service__title {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.quality-indicators-block {
+  margin-bottom: 30px;
+}
+
+.quality-indicators-block h4 {
+  margin-bottom: 50px;
+}
+
+.quality-indicators-block p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content {
+  position: relative;
+}
+
+.quality-indicators-btn {
+  width: 420px;
+  height: 60px;
+  position: absolute;
+  top: 85px;
+  right: 12%;
+  color: #303030;
+  background-color: #efefef;
+  border-color: #efefef;
+}
+
+.quality-indicators-btn:hover {
+  color: white;
+  background-color: #7a231c;
+  border-color: #7a231c;
+}
+

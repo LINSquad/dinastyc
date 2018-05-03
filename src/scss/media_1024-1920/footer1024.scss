@@ -1,0 +1,87 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+
+  .footer {
+    position: relative;
+    padding-right: 10px;
+  }
+
+  .footer-menu__left .footer-menu__list {
+    display: none;
+  }
+
+  .footer-menu__right .footer-menu__title {
+    display: none;
+  }
+
+  .footer-bottom .text {
+    font-size: 10px;
+  }
+
+  .logo-taurus img {
+    margin-right: 20px;
+    width: 140px;
+  }
+
+  .footer-menu {
+    flex-basis: 20%;
+  }
+
+  .footer-menu__left,
+  .footer-menu__right {
+    flex-basis: 100%;
+  }
+
+  .footer-contact {
+    flex-basis: 495px;
+  }
+
+  .footer-contact .text-link,
+  .footer-contacts {
+    font-size: 20px;
+  }
+
+  .footer-contacts span {
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  .footer-time {
+    flex-basis: 55%;
+  }
+
+  .footer-time p {
+    width: 200px;
+  }
+
+  .footer-menu__right__bottom {
+    position: absolute;
+    bottom: 235px;
+    right: 135px;
+  }
+
+  .footer-menu__left .footer-menu__title {
+    font-size: 20px;
+    text-transform: none;
+    margin-bottom: 0;
+  }
+
+  .footer-menu__bottom {
+    position: absolute;
+    margin-top: 0;
+    left: 55px;
+    bottom: 160px;
+  }
+
+  .footer-menu__right .footer-menu-list {
+    margin-bottom: 95px;
+  }
+
+  .footer-menu__right .footer-menu__list {
+    margin-top: -85px;
+  }
+
+  .footer-top .logo__img {
+    width: 160px;
+    height: 170px;
+  }
+}
