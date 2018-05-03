@@ -1,0 +1,85 @@
+<footer class="footer">
+    <div class="footer-top">
+        <a href="index.html" class="logo">
+            <img class="logo__img" src="assets/images/logo.png" alt="Династия">
+        </a>
+
+        <div class="footer-menu">
+            <div class="footer-menu__left">
+                <div class="footer-menu__title">{{footerMenu.0.name}}</div>
+
+                <ul class="footer-menu__list">
+                    {{#each footerMenu.0.subMenu as |service|}}
+                        <li class="footer-menu__item">
+                            <a href="{{service.href}}" class="footer-menu__link">{{service.name}}</a>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+
+            <div class="footer-menu__right">
+                <div class="footer-menu__title">{{footerMenu.1.name}}</div>
+
+                <ul class="footer-menu__list">
+                    {{#each footerMenu.1.subMenu as |service|}}
+                        <li class="footer-menu__item">
+                            <a href="{{service.href}}" class="footer-menu__link">{{service.name}}</a>
+                        </li>
+                    {{/each}}
+                </ul>
+
+                <div class="footer-menu__right__bottom">
+                    <p class="footer-menu__item">
+                        <a href="../knowledge-base.html" class="footer-menu__link">База знаний</a>
+                    </p>
+                    <p class="footer-menu__item">
+                        <a href="../site-map.html" class="footer-menu__link">Карта сайта</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-menu__bottom">
+                <p class="footer-menu__item">
+                    <a href="#" class="footer-menu__link">Соглашение об обработке персональных данных</a>
+                </p>
+                <p class="footer-menu__item">
+                    <a href="#" class="footer-menu__link">Политика конфиденциальности</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-contact">
+            <button class="main-button main-button__red footer_button_service">Заказать звонок</button>
+            <button class="main-button main-button__white footer_button_payment">Оплатить услуги</button>
+
+            <a href="#" class="text-link _big">{{phone}}</a>
+
+            <ul class="social _big">
+                {{> socials icon='fa-vk' href='#"'}}
+                {{> socials icon='fa-twitter' href='#"'}}
+                {{> socials icon='fa-instagram' href='#"'}}
+                {{> socials icon='fa-youtube' href='#"'}}
+            </ul>
+
+            <div class="footer-contacts">
+                {{adress.street}}
+                <br>
+                <span>{{adress.post}}, {{adress.country}}, {{adress.city}}</span>
+            </div>
+
+            <div class="footer-time">
+                <p>{{officeHours}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="text">
+            © 2017  | {{dinastyFullNameTop}} {{dinastyFullNameBottom}}
+        </div>
+        <a href="index.html" class="logo-taurus">
+            <img class="logo-taurus__img" src="../assets/images/taurus-logo.png" alt="Taurus">
+        </a>
+    </div>
+</footer>

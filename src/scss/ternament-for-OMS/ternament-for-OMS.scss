@@ -1,0 +1,68 @@
+p.ternament-for-OMS__title {
+  margin-left: 375px;
+  width: 45%;
+  margin-top: 30px;
+}
+
+.list-of-organizations {
+  margin-left: 225px;
+  margin-top: 125px;
+}
+
+.list-of-organizations h2{
+  margin-bottom: 80px;
+}
+
+.list-of-organizations__conteiner {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-of-organizations__block {
+  margin-bottom: 60px;
+  flex-basis: 40%;
+}
+
+.list-of-organizations__block p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.list-of-organizations__block h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+//insimination
+
+.insimination .image_bottom {
+  width: 25%;
+}
+
+.insimination h5 {
+  margin-top: 55px;
+}
+
+.insimination p {
+  margin-top: 30px;
+}
+
+//non-resident-patients
+
+.non-resident-patients .drop-down__service .drop-down__service__display {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.inform__container {
+  flex-basis: 45%;
+}
+
+.inform__container h4 {
+  width: 100%;
+}

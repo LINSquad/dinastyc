@@ -1,0 +1,26 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .news-block__date {
+    margin-left: 100px;
+  }
+
+  .container__action {
+    max-width: 80%;
+    margin-left: 100px;
+    margin-bottom: 75px;
+    flex-direction: column-reverse;
+  }
+
+  .text__action {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .image__action {
+    width: 570px;
+    margin: auto;
+  }
+
+  .text__action__back {
+    margin-top: 150px;
+  }
+}

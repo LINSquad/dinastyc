@@ -1,0 +1,155 @@
+@import "../../node_modules/normalize.css/normalize";
+@import "../../node_modules/tiny-slider/dist/tiny-slider";
+
+//common
+@import "common/variables";
+@import "common/common";
+@import "common/fonts";
+@import "common/bootstrap-custom";
+@import "common/layout";
+
+//blocks.
+//please, add new blocks in alphabetical order!
+@import "block/feedback-form";
+@import "block/footer";
+@import "block/form";
+@import "block/gos_uslugi";
+@import "block/header/header";
+@import "block/header/header-block";
+@import "block/header/header-contacts";
+@import "block/main-button";
+@import "block/main-slider";
+@import "block/menu-main";
+@import "block/news-block";
+@import "block/oms";
+@import "block/partners";
+@import "block/reviews";
+@import "block/rewards";
+@import "block/section-title";
+@import "block/service";
+@import "block/social";
+@import "block/subscribe";
+@import "block/test";
+@import "block/title";
+
+//1024
+@import "media_1024-1920/header1024";
+@import "media_1024-1920/main-slider1024";
+@import "media_1024-1920/services1024";
+@import "media_1024-1920/feedback-form1024";
+@import "media_1024-1920/gos_uslugi1024";
+@import "media_1024-1920/reviews1024";
+@import "media_1024-1920/rewards1024";
+@import "media_1024-1920/news1024";
+@import "media_1024-1920/oms1024";
+@import "media_1024-1920/partners1024";
+@import "media_1024-1920/subscribe1024";
+@import "media_1024-1920/footer1024";
+
+//media_768-1024
+@import "media_768-1024/header768";
+@import "media_768-1024/main-slider768";
+@import "media_768-1024/services768";
+@import "media_768-1024/feedback-form768";
+@import "media_768-1024/gos_uslugi768";
+@import "media_768-1024/reviews768";
+@import "media_768-1024/rewards768";
+@import "media_768-1024/news768";
+@import "media_768-1024/oms768";
+@import "media_768-1024/partners768";
+@import "media_768-1024/subscribe768";
+@import "media_768-1024/footer768";
+
+
+//media_320-768
+@import "media_320-768/header320";
+@import "media_320-768/main-slider320";
+@import "media_320-768/services320";
+@import "media_320-768/feedback-form320";
+@import "media_320-768/gos_uslugi320";
+@import "media_320-768/reviews320";
+@import "media_320-768/rewards320";
+@import "media_320-768/news320";
+@import "media_320-768/oms320";
+@import "media_320-768/partners320";
+@import "media_320-768/subscribe320";
+@import "media_320-768/footer320";
+
+
+//blocks.
+//please, add new blocks in alphabetical order!
+@import "infertility-treatment/title";
+@import "provision-of-services/drop-down";
+@import "donor-programs/donor-programs";
+@import "about-the-center/about-the-center";
+@import "all_awards/all_awards";
+@import "licenses/licenses";
+@import "anti-corruption-measures/anti-corruption-measures";
+@import "quality-indicators/quality-indicators";
+@import "careers/careers";
+@import "news/news";
+@import "action/action";
+@import "reviews/reviews";
+@import "medical-and-diagnostyc-departament/medical-and-diagnostyc-departament";
+@import "mass-media-about-us/mass-media-about-us";
+@import "patients/patients";
+@import "ternament-for-OMS/ternament-for-OMS";
+@import "site-map/site-map";
+@import "specialists/specialists";
+@import "questions-and-answers/questions-and-answers";
+@import "prices/prices";
+
+//1024
+@import "media_1024-1920/infertility-treatment/title";
+@import "media_1024-1920/provision-of-services/drop-down";
+@import "media_1024-1920/donor-programs/donor-programs";
+@import "media_1024-1920/about-the-center/about-the-center";
+@import "media_1024-1920/all_awards/all_awards";
+@import "media_1024-1920/licenses/licenses";
+@import "media_1024-1920/anti-corruption-measures/anti-corruption-measures";
+@import "media_1024-1920/quality-indicators/quality-indicators";
+@import "media_1024-1920/careers/careers";
+@import "media_1024-1920/news/news";
+@import "media_1024-1920/action/action";
+@import "media_1024-1920/reviews/reviews";
+@import "media_1024-1920/medical-and-diagnostyc-departament/medical-and-diagnostyc-departament";
+@import "media_1024-1920/mass-media-about-us/mass-media-about-us";
+@import "media_1024-1920/patients/patients";
+@import "media_1024-1920/specialists/specialists";
+
+//media_768-1024
+@import "media_768-1024/infertility-treatment/title";
+@import "media_768-1024/provision-of-services/drop-down";
+@import "media_768-1024/donor-programs/donor-programs";
+@import "media_768-1024/about-the-center/about-the-center";
+@import "media_768-1024/all_awards/all_awards";
+@import "media_768-1024/licenses/licenses";
+@import "media_768-1024/anti-corruption-measures/anti-corruption-measures";
+@import "media_768-1024/quality-indicators/quality-indicators";
+@import "media_768-1024/careers/careers";
+@import "media_768-1024/news/news";
+@import "media_768-1024/action/action";
+@import "media_768-1024/reviews/reviews";
+@import "media_768-1024/medical-and-diagnostyc-departament/medical-and-diagnostyc-departament";
+@import "media_768-1024/mass-media-about-us/mass-media-about-us";
+@import "media_768-1024/patients/patients";
+@import "media_768-1024/specialists/specialists";
+
+
+//media_320-768   donor-programs
+@import "media_320-768/infertility-treatment/title";
+@import "media_320-768/provision-of-services/drop-down";
+@import "media_320-768/donor-programs/donor-programs";
+@import "media_320-768/about-the-center/about-the-center";
+@import "media_320-768/all_awards/all_awards";
+@import "media_320-768/licenses/licenses";
+@import "media_320-768/anti-corruption-measures/anti-corruption-measures";
+@import "media_320-768/quality-indicators/quality-indicators";
+@import "media_320-768/careers/careers";
+@import "media_320-768/news/news";
+@import "media_320-768/action/action";
+@import "media_320-768/reviews/reviews";
+@import "media_320-768/medical-and-diagnostyc-departament/medical-and-diagnostyc-departament";
+@import "media_320-768/mass-media-about-us/mass-media-about-us";
+@import "media_320-768/patients/patients";
+@import "media_320-768/specialists/specialists";

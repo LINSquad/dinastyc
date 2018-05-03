@@ -1,0 +1,27 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .careers__block {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 90px;
+  }
+
+  .careers__block__duties {
+    order: 0;
+  }
+
+  .careers__block__btn {
+    width: 48%;
+  }
+
+  .careers__block__container {
+    height: 400px;
+  }
+
+  .careers__block__container .careers__title {
+    font-size: 20px;
+  }
+
+  .careers__block:before {
+    width: 48%;
+  }
+}

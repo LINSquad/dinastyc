@@ -1,0 +1,172 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .main-url,
+  .infertility-treatment-title__h1,
+  .about-the-center-container {
+    margin-left: 100px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 42px;
+  }
+
+  .about-the-center-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+  }
+
+  .about-the-center-link a {
+    font-size: 16px;
+  }
+
+  .about-the-center-director,
+  .about-the-center-structure {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  .about-the-center-director h2,
+  .about-the-center-structure h2{
+    margin-bottom: 40px;
+    font-size: 26px;
+  }
+
+  .about-the-center-director__flex img {
+    width: 230px;
+    height: 280px;
+  }
+
+  .about-the-center-director:before, .about-the-center-director:after {
+    background-repeat: no-repeat;
+    background-size: 34px 28px;
+    width: 34px;
+    height: 28px;
+  }
+
+  .about-the-center-director:before {
+    top: 100px;
+    left: -22px;
+  }
+
+  .about-the-center-director__flex__left {
+    flex-basis: 60%;
+  }
+
+  .about-the-center-director__flex__left .name,
+  .about-the-center-director__flex__left .dolzn {
+    position: absolute;
+    left: 0;
+  }
+
+
+  .about-the-center-director__flex__left .name {
+    bottom: 100px;
+    width: 25%;
+  }
+
+  .about-the-center-director__flex__left .dolzn {
+    bottom: -25px;
+    width: 35%;
+    line-height: 24px;
+  }
+
+  .structure {
+    margin-left: -80px;
+    height: 900px;
+  }
+
+  @media (min-width: 1360px) {
+    .structure {
+      margin-left: 160px;
+    }
+  }
+
+  .structure .doctor_top {
+    width: 315px;
+    height: 150px;
+  }
+
+  .structure .level_1 {
+    left: 340px;
+  }
+
+  .structure .level_2 {
+    top: 225px;
+    left: -340px;
+  }
+
+  .structure .level_2:after {
+    width: 800px;
+    left: 85px;
+  }
+
+  .structure .level_3 {
+    top: 225px;
+    left: -200px;
+  }
+
+  .structure .level_3__left {
+    top: 450px;
+    left: -200px;
+  }
+
+  .structure .level_3__right:after {
+    width: 600px;
+    left: 85px;
+  }
+
+  .structure .level_3__left:after {
+    width: 200px;
+    left: 85px;
+  }
+
+  .structure .level_4 {
+    top: 225px;
+    left: 0;
+  }
+
+  .structure .doctor {
+    width: 170px;
+    height: 150px;
+    margin-right: 30px;
+  }
+
+  .structure .doctor h4,
+  .structure .doctor_top h4 {
+    width: 78%;
+    font-size: 12px;
+  }
+
+  .structure .doctor a, .doctor_top a {
+    bottom: 10px;
+    font-size: 8px;
+  }
+
+  .structure .doctor:after {
+    content: "";
+    height: 40px;
+    border-left: 2px solid #7a231c;
+    position: absolute;
+    top: -40px;
+    left: 85px;
+  }
+
+  .structure .doctor__submenu:nth-child(1):before {
+    left: 145px;
+  }
+
+  .structure .doctor__submenu:before {
+    left: 85px;
+  }
+
+  .structure .level_3 .doctor__submenu:before {
+    left: 85px;
+  }
+
+  .structure .level_3__left .doctor:nth-child(2):after {
+    height: 260px;
+    top: -260px;
+  }
+}

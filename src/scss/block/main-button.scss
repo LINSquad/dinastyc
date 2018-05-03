@@ -1,0 +1,22 @@
+.main-button {
+  padding: 0 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+
+  &._red {
+    background-color: $color-active;
+    color: $color-super-light;
+  }
+
+  &._white {
+    background-color: $color-super-light;
+    color: $color-text-secondary;
+  }
+
+  .header__bottom & {
+    height: 60px;
+    line-height: 60px;
+  }
+}

@@ -1,0 +1,56 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .title__h2 {
+    margin-left: 15px;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .specialist-page__conteiner {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .specialist-page__conteiner__right__top {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+  }
+
+  .specialist-page__conteiner__right__bottom {
+    margin-top: 60px;
+  }
+
+  .specialist-page__conteiner__right__top img,
+  .specialist-page__conteiner__right__top .btn {
+    margin: auto;
+    width: 90%;
+  }
+
+  .specialist-page__conteiner__right__top .btn {
+      margin-top: 15px;;
+    }
+
+  .specialist-page__conteiner__left, .specialist-page__conteiner__right {
+      flex-basis: 100%;
+      margin-right: 0;
+  }
+
+  .specialist-page__conteiner__left .specialist-page__conteiner__block,
+  .specialist-page__conteiner__right .specialist-page__conteiner__block {
+    display: none;
+  }
+
+  .specialist-page__conteiner .drop-down__service {
+    display: block;
+  }
+
+  .specialist-page__conteiner .drop-down__service h3 {
+      font-size: 18px;
+  }
+
+  .specialist-page__conteiner .text__action__back {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}

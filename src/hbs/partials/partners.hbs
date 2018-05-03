@@ -1,0 +1,12 @@
+<section class="partners">
+    {{> section-title text='Партнеры'}}
+
+    <div class="partners-container">
+        {{#each partners as |partner|}}
+            <div class="partner">
+                <img src="{{partner.img}}" alt="{{partner.name}}" class="partner__img">
+            </div>
+        {{/each}}
+    </div>
+
+</section>

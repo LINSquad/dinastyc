@@ -1,0 +1,172 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .main-url,
+  .infertility-treatment-title__h1,
+  .content-flex,
+  .receiving,
+  .infertility-treatment-services,
+  .infertility-treatment-info,
+  .infertility-treatment-contacts {
+    margin-left: 80px;
+  }
+
+  .content-flex {
+    margin-right: 0;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 36px;
+  }
+
+  .infertility-treatment-title p {
+    margin-left: 65px;
+    width: 74%;
+  }
+
+  .infertility-treatment-title {
+    flex-basis: 60%;
+  }
+
+  .infertility-treatment-doc {
+    margin-top: 15px;
+    flex-basis: 28%;
+  }
+
+  .receiving {
+    margin-top: 0;
+  }
+
+  .infertility-treatment-doc .service__title {
+    font-size: 12px;
+    width: 108%;
+  }
+
+  .infertility-treatment-doc .service__description {
+    font-size: 12px;
+  }
+
+  .drop-down__service {
+    margin-left: 50px;
+  }
+
+  .infertility-treatment-services__block {
+    margin-left: 0;
+    width: 95%;
+  }
+
+  .infertility-treatment-services__block:nth-child(2n-1) .infertility-treatment-services__block__left {
+    order: 2;
+    border-left: 0;
+    border-right: 1px solid #7a231c;
+  }
+
+  .infertility-treatment-services__block:nth-child(2n-1) .infertility-treatment-services__block__left h3{
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .infertility-treatment-services__block:nth-child(2n-1) .infertility-treatment-services__block__right a{
+    width: 100%;
+    text-align: left;
+  }
+
+  .infertility-treatment-services__block__left {
+    width: 300px;
+    height: 185px;
+    background-color: white;
+    flex-basis: 50%;
+  }
+
+  .infertility-treatment-services__block .infertility-treatment-services__block__left:before {
+    display: none;
+  }
+
+  .infertility-treatment-services h3 {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+
+  .infertility-treatment-services__block__right {
+    flex-basis: 45%;
+  }
+
+  .infertility-treatment-services__block .infertility-treatment-services__block__right p {
+    margin-top: 0;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .infertility-treatment-services a {
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  .infertility-treatment-services p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .infertility-treatment-info h2,
+  .infertility-treatment-contacts h2 {
+    font-size: 24px;
+  }
+
+  .infertility-treatment-info__top p {
+    margin-left: 65px;
+    width: 83%;
+  }
+
+  .infertility-treatment-info h2, .infertility-treatment-contacts h2 {
+    width: 105%;
+  }
+
+  .infertility-treatment-info__bottom__1,
+  .infertility-treatment-info__bottom__2,
+  .infertility-treatment-info__bottom__3 {
+    margin-left: 0;
+  }
+
+  .infertility-treatment-info__bottom__1 .number,
+  .infertility-treatment-info__bottom__2 .number,
+  .infertility-treatment-info__bottom__3 .number {
+    font-size: 24px;
+  }
+
+  .infertility-treatment-info__bottom__1 .info,
+  .infertility-treatment-info__bottom__2 .info,
+  .infertility-treatment-info__bottom__3 .info {
+    width: 100%;
+  }
+
+  .infertility-treatment-contacts-flex {
+    margin-left: 0;
+    height: 320px;
+  }
+
+  .infertility-treatment-contacts-flex p {
+    margin-bottom: 0;
+  }
+
+  .infertility-treatment-contacts-flex p:first-child {
+    width: 200px;
+  }
+
+  .infertility-treatment-contacts-flex .sunday {
+    margin-top: 20px;
+  }
+
+  .infertility-treatment-contacts-flex h3 {
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .infertility-treatment-contacts-flex a {
+    order: 8;
+    margin-top: 30px;
+  }
+
+  .infertility-treatment-contacts-flex img {
+    margin-top: 0;
+    width: 320px;
+  }
+}

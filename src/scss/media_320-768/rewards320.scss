@@ -1,0 +1,48 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .rewards {
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+
+  .rewards_container {
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .rewards-text {
+    order: -1;
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+
+  .rewards-text p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .reward {
+    width: 170px;
+    margin: auto;
+  }
+
+  .reward:nth-child(2),
+  .reward:nth-child(3){
+    display: none;
+  }
+
+  .reward img {
+    width: 170px;
+  }
+
+  .geometry4 {
+    display: none;
+  }
+
+  .rewards-all {
+    flex-basis: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 35px;
+    font-size: 14px;
+  }
+}

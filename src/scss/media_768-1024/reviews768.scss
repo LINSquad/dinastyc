@@ -1,0 +1,54 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .reviews {
+    margin-left: 120px;
+  }
+
+  .review {
+    height: 350px;
+    width: 600px;
+    margin-left: -45px;
+    padding: 25px 40px 0 35px;
+  }
+
+  .reviews__left-arrow {
+    left: -70px;
+  }
+
+  .reviews__right-arrow {
+    top: 30%;
+    right: -135px;
+    background-size: 70px 180px;
+  }
+
+  .review .review__title {
+    font-size: 16px;
+  }
+
+  .review p {
+    width: 559px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .review p:last-child {
+    margin-bottom: 25px;
+  }
+
+  .review_link {
+    margin-left: 7em;
+  }
+
+  .review-substrate {
+    top: 90px;
+    right: 20px;
+  }
+
+  .reviews .read-more a {
+    font-size: 14px;
+  }
+
+  .reviews .read-more {
+    margin-left: -45px;
+  }
+}

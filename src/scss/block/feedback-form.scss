@@ -1,0 +1,125 @@
+.feedback-form {
+  position: relative;
+  height: 713px;
+  background: url('../images/backgound2.png') no-repeat center top #fafafa;
+  //background-attachment: fixed;
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    width: 659px;
+    height: 796px;
+    background-image: url('../images/doctor.png');
+  }
+}
+
+.feedback-form .form {
+  margin-top: 70px;
+}
+
+.form__title {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+input[type="email"], input[type="number"],
+input[type="password"], input[type="tel"],
+input[type="url"], input[type="text"] {
+  width: 335px;
+  height: 45px;
+  padding-left: 25px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 25px;
+}
+
+.form label,
+.form p,
+.form span {
+  font-size: 12px;
+  color: #303030;
+}
+
+.form span {
+  text-decoration: underline #7a231c;
+}
+
+.form p {
+  width: 325px;
+  text-align: left;
+  line-height: 14px;
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.disactive {
+  background-color: #b89693;
+  border-color: #b89693;
+}
+
+.form .main-button {
+  width: 335px;
+  height: 60px;
+}
+
+.feedback-form .row {
+  position: relative;
+}
+
+.geometry3 {
+  position: absolute;
+  top: 0;
+  left: -425px;
+  width: 0;
+  height: 0;
+  border-top: 985px solid #fafafa;
+  border-right: 1125px solid transparent;
+  z-index: -1;
+
+}
+
+.checkbox {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+}
+.checkbox + label {
+  position: relative;
+  padding: 0 0 0 35px;
+}
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  background: white;
+  border: 3px solid #e6e6e6;
+}
+
+.checkbox:checked + label:after {
+  content: "✔";
+  position: absolute;
+  top: -17px;
+  left: 1px;
+  font-size: 34px;
+  color: #7a231c;
+}
+
+.main-button label {
+  font-size: 17px;
+}
+
+.main-button .checkbox + label:before {
+  top: -6px;
+}
+
+.main-button .checkbox + label:after {
+  top: -14px;
+}

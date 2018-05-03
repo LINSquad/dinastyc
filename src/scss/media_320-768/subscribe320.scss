@@ -1,0 +1,41 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .subscribe {
+    margin-bottom: 70px;
+  }
+
+  .subscribe-form {
+    flex-wrap: wrap;
+  }
+
+  .subscribe-form input[type="email"],
+  .subscribe-form input[type="text"] {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .subscribe .btn {
+    height: 50px;
+    margin-top: 0;
+    width: 230px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe__title {
+    font-size: 13px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .text-of-agreements {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .text-of-agreements p,
+  .subscribe .text-of-agreements span {
+    font-size: 9px;
+  }
+}

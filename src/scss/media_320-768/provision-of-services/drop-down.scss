@@ -1,0 +1,94 @@
+@media (max-width: 767px) and (min-width: 320px) {
+
+  .main-url,
+  .infertility-treatment-title__h1{
+    margin-left: 15px;
+  }
+
+  .provision-of-services {
+    margin-left: 0;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 26px;
+  }
+
+  .provision-of-services .drop-down__service {
+    margin-left: 0;
+  }
+
+  .provision-of-services .drop-down__service {
+    width: 100%;
+  }
+
+  .provision-of-services .drop-down__service__display .document {
+    width: 100%;
+  }
+
+  .doctor p {
+    font-size: 12px;
+  }
+
+  .provision-of-services .drop-down__service  .document p {
+    flex-basis: 100%;
+  }
+
+  .provision-of-services .drop-down__service__display .document p {
+    font-size: 12px;
+  }
+
+  .drop-down__service p {
+    flex-basis: 100%;
+  }
+
+  .provision-of-services .drop-down__service__display .grounds {
+    font-size: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .provision-of-services .drop-down__service__display .grounds p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .provision-of-services .drop-down__service_4 p,
+  .provision-of-services .drop-down__service_5 p,
+  .provision-of-services .drop-down__service_6 p {
+    font-size: 12px;
+  }
+
+  .provision-of-services .phone-text {
+    font-size: 12px;
+  }
+
+  .provision-of-services h3 {
+    font-size: 14px;
+  }
+
+  .provision-of-services h4 {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .provision-of-services .drop-down__service_1 .drop-down__service__display,
+  .provision-of-services .drop-down__service_2 .drop-down__service__display,
+  .provision-of-services .drop-down__service_3 .drop-down__service__display,
+  .provision-of-services .drop-down__service_4 .drop-down__service__display,
+  .provision-of-services .drop-down__service_5 .drop-down__service__display,
+  .provision-of-services .drop-down__service_6 .drop-down__service__display {
+    height: 100%;
+  }
+
+  .doctor {
+    width: 110%;
+  }
+
+  .drop-down__service .slider_down-arrow, .drop-down__service .slider_up-arrow {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+}

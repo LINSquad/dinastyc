@@ -1,0 +1,85 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .main-url,
+  .infertility-treatment-title__h1,
+  .donor-programs {
+    margin-left: 80px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 36px;
+  }
+
+  .conteiner-title {
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+  }
+
+  .donor-program-image {
+    order: -1;
+    flex-basis: 100%;
+    margin-top: 15px;
+  }
+
+  .service__img {
+    width: 65%;
+    margin: auto;
+  }
+
+  .donor-program {
+    flex-basis: 100%;
+    margin-right: 15px;
+  }
+
+  .donor-program-info {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .donor-program-info__become,
+  .donor-program-info__take-advantage {
+    font-size: 18px;
+    flex-basis: 100%;
+  }
+
+  .donor-program-info-slide__egg,
+  .donor-program-info-slide__sperm {
+    font-size: 16px;
+    flex-basis: 40%;
+  }
+
+  .donor-program-info__button {
+    flex-wrap: wrap;
+  }
+
+  .donor-program-info__button,
+  .donor-program-info-slide__donors {
+    margin-bottom: 60px;
+  }
+
+  .donor-program-info-sliders h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .donor-program-info-slide, .take-advantage {
+    width: 100%;
+  }
+
+  .demands h4 {
+    margin-bottom: 15px;
+  }
+
+  .step {
+    margin-bottom: 50px;
+  }
+
+  .demands {
+    margin-bottom: 50px;
+  }
+
+  .remuneration h4 {
+    margin-bottom: 10px;
+  }
+
+}

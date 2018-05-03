@@ -1,0 +1,27 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .mass-media-about-us__slide {
+    margin: 100px;
+  }
+
+  .mass-media-about-us-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .all_mass-media-about-us {
+    flex-basis: 30%;
+  }
+
+  .all_mass-media-about-us img {
+    width: 100%;
+  }
+
+  .all_mass-media-about-us h4 {
+    font-size: 14px;
+  }
+
+  .all_mass-media-about-us h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}

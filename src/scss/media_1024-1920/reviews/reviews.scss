@@ -1,0 +1,35 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .reviews-image {
+    background-size: 320px 180px;
+    flex-basis: 320px;
+    height: 180px;
+  }
+
+  .reviews-image .btn {
+    width: 320px;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .reviews-title__h2 {
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reviews-image h3 {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 70px 0;
+  }
+
+  .reviews-title {
+    flex-basis: 50%;
+  }
+
+  .review__block {
+    margin-left: 200px;
+    width: 65%;
+  }
+}

@@ -1,0 +1,36 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+
+  .quality-indicators-image {
+    flex-basis: 35%;
+  }
+
+  .quality-indicators-image .service__img {
+    width: 100%;
+  }
+
+  .quality-indicators-image .service__title {
+    font-size: 14px;
+  }
+
+  .quality-indicators-image .service__description {
+    font-size: 12px;
+  }
+
+  .quality-indicators-title {
+    flex-basis: 60%;
+  }
+
+  .quality-indicators-block h4 {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .quality-indicators-block p {
+    font-size: 14px;
+  }
+
+  .quality-indicators-btn {
+    top: 170px;
+    left: 80px;
+  }
+}

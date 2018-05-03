@@ -1,0 +1,8 @@
+<div class="achievements">
+    {{#each achievements as |achievement|}}
+        <div class="achievement">
+            <div class="achievements__name">{{achievement.name}}</div>
+            <div class="achievements__value"><span>{{achievement.value_top}}</span>{{achievement.value_bottom}}</div>
+        </div>
+    {{/each}}
+</div>

@@ -1,0 +1,171 @@
+@media (max-width: 767px) and (min-width: 320px) {
+
+  .main-url,
+  .infertility-treatment-title__h1{
+    margin-left: 15px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 26px;
+  }
+
+  .about-the-center-container .about-the-center-link {
+    flex-basis: 100%;
+  }
+
+  .about-the-center-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+  }
+
+  .about-the-center-director__flex {
+    flex-wrap: wrap;
+  }
+
+  .about-the-center-link a {
+    font-size: 14px;
+  }
+
+  .about-the-center-director,
+  .about-the-center-structure {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+
+  .about-the-center-director h2,
+  .about-the-center-structure h2{
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  .about-the-center-director__flex img {
+    width: 290px;
+    height: 350px;
+  }
+
+  .about-the-center-director:before, .about-the-center-director:after {
+    display: none;
+  }
+
+  .about-the-center-director__flex__left {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-the-center-director__flex__left p {
+    margin-bottom: 15px;
+  }
+
+  .about-the-center-director__flex__left .name,
+  .about-the-center-director__flex__left .dolzn {
+    order: -1;
+  }
+
+  .about-the-center-director__flex__left .name {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-the-center-director__flex__left .dolzn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .about-the-center-director__flex__left .bold {
+    font-size: 16px;
+  }
+
+
+  .about-the-center-director__flex__btn {
+    display: none;
+  }
+
+  .about-the-center-structure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-the-center-structure h2 {
+    margin-left: 10px;
+  }
+
+  .structure {
+    display: none;
+  }
+
+  .structure_media {
+    display: block;
+    height: 100%;
+    margin-bottom: 50px;
+    background-color: #fafafa;
+  }
+
+  .structure_media .doctor {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+
+  .structure_media .level_1:before,
+  .structure_media .level_2:before,
+  .structure_media .level_3:before,
+  .structure_media .level_4:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 550px;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .structure_media .level_3:last-child:before{
+    display: none;
+  }
+
+  .structure_media .doctor h4 {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .structure_media .level_1,
+  .structure_media .level_2,
+  .structure_media .level_3,
+  .structure_media .level_4 {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .structure_media .doctor h4 {
+    width: 85%;
+  }
+
+  .structure_media .level_2 h4 {
+    position: relative;
+    padding-left: 15px;
+  }
+
+  .structure_media .level_3 h4 {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .structure_media .level_4 h4 {
+    position: relative;
+    padding-left: 45px;
+  }
+
+  .doctor__submenu:after {
+    content: "";
+    position: absolute;
+    background-image: url("../images/slider_up-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 20px 10px;
+    width: 20px;
+    height: 10px;
+    right: 15px;
+    bottom: 40%;
+  }
+}
