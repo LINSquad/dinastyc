@@ -53,3 +53,99 @@ a.site-map__l2 {
 .search__block p.title {
   font-weight: bold;
 }
+
+//конктакты
+
+.contacts__title__h2 {
+  margin: 70px 225px 100px;
+  width: 60%;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.conteiner__contacts {
+  margin-left: 225px;
+  margin-right: 225px;
+  margin-bottom: 110px;
+  display: flex;
+}
+
+.map {
+  height: 580px;
+  flex-basis: 75%;
+}
+
+.contact__adress {
+  flex-basis: 300px;
+}
+
+.contact__adress__block {
+  height: 60px;
+  padding-left: 15px;
+  padding-top: 5px;
+  line-height: 24px;
+}
+
+.contact__adress__block:hover {
+  color: #7a231c;
+}
+
+.active__adress {
+  background-color: #7a231c;
+  color: white;
+}
+
+.active__adress:hover {
+  color: white;
+}
+
+p.title__adress {
+  margin-top: 35px;
+}
+
+.title__adress,
+.city{
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.city{
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.title__adress,
+.title {
+  font-weight: bold;
+}
+
+.email {
+  margin-top: 35px;
+}
+
+.email:hover {
+  color: #303030;
+}
+
+.contact__bottom {
+  margin-left: 225px;
+  margin-right: 225px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact__bottom .btn {
+  flex-basis: 49%;
+  background-color: #f1f1f1;
+  color: #303030;
+  border-color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.contact__bottom .btn:hover {
+  color: #7a231c;
+}
+
