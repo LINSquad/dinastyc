@@ -97,7 +97,7 @@
         },
         {
           "name": "Реквизиты",
-          "href": "#"
+          "href": "../contacts.html"
         }
       ]
     },
@@ -119,7 +119,7 @@
         },
         {
           "name": "Лечение по ДМС",
-          "href": "#"
+          "href": "../ternament-for-OMS.html"
         },
         {
           "name": "База знаний",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Минздрав СО",
-          "href": "#"
+          "href": "../news.html"
         },
         {
           "name": "Вопросы и ответы",
@@ -865,7 +865,7 @@
     },
     {
       "name": "Лечение по ДМС",
-      "href": "#"
+      "href": "../ternament-for-OMS.html"
     },
     {
       "name": "База знаний",
@@ -873,7 +873,7 @@
     },
     {
       "name": "Минздрав СО",
-      "href": "#"
+      "href": "../news.html"
     },
     {
       "name": "Вопросы и ответы",
@@ -883,23 +883,23 @@
   "prices": [
     {
       "name": "ЛЕЧЕНИЕ БЕСПОЛДИЯ",
-      "href": "#"
+      "href": "../prices-infertility-treatment.html"
     },
     {
       "name": "УЗИ",
-      "href": "#"
+      "href": "../prices-infertility-treatment.html"
     },
     {
       "name": "ЛАБОРАТОРНАЯ ДИАГНОСТИКА",
-      "href": "#"
+      "href": "../prices-infertility-treatment.html"
     },
     {
       "name": "КОНСУЛЬТАЦИИ",
-      "href": "#"
+      "href": "../prices-infertility-treatment.html"
     },
     {
       "name": "СТАЦИОНАРНАЯ ПОМОЩЬ",
-      "href": "#"
+      "href": "../prices-infertility-treatment.html"
     }
   ],
   "all_awards": [

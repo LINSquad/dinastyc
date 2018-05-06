@@ -56,3 +56,47 @@ button.btn.prices-close__btn {
   min-width: 45px;
   width: 45px;
 }
+
+//Услуги
+
+.prices-infertility-treatment h2{
+  margin-top: 70px;
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.prices-infertility-treatment__bottom {
+  margin-left: 405px;
+  margin-right: 405px;
+  margin-top: 85px;
+}
+
+.more-info,
+.add,
+.added {
+  margin: 0;
+}
+
+.more-info,
+.add {
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
+  color: #303030;
+}
+
+.more-info:hover {
+  background-color: #7a231c;
+  border-color: #7a231c;
+  color: #ffffff;
+}
+
+.prices-infertility-treatment__search-block {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 140px;
+}
+
+.prices-infertility-treatment__search-block p.title {
+  flex-basis: 50%;
+}
