@@ -1,0 +1,54 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .mass-media-about-us__slide {
+    margin: 15px;
+    flex-wrap: wrap;
+  }
+
+
+  .mass-media-about-us__newspaper,
+  .mass-media-about-us__internet,
+  .mass-media-about-us__video {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mass-media-about-us-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .video__content h4 {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .all_video {
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+
+  .all_mass-media-about-us {
+    margin-bottom: 40px;
+  }
+
+  .video__content,
+  .all_mass-media-about-us {
+    flex-basis: 100%;
+  }
+
+  .all_mass-media-about-us img {
+    width: 100%;
+  }
+
+  .all_mass-media-about-us h4 {
+    font-size: 14px;
+  }
+
+  .all_mass-media-about-us h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+}

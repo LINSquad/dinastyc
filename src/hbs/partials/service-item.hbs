@@ -3,15 +3,17 @@
 {{else}}
     <div class="service">
 {{/if}}
-    <h3 class="service__title">{{service.title}}</h3>
+    <h3 class="service__title"><a href="{{service.href}}">{{service.title}}</a></h3>
 
     {{#if service.description}}
-        <div class="service__description">{{service.description}}</div>
+            <div class="service__description"><a href="{{service.href}}">{{service.description}}</a></div>
     {{/if}}
 
     <div class="service__image">
-        <img class="service__img" src="{{service.img}}" alt="">
+        <a href="{{service.href}}">
+            <img class="service__img" src="{{service.img}}" alt="">
+        </a>
     </div>
 
-    <div class="service__all"><a href="#">ПОДРОБНЕЕ</a></div>
+    <div class="service__all"><a href="{{service.href}}">ПОДРОБНЕЕ</a></div>
 </div>

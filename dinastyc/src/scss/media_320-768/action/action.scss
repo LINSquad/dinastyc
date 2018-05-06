@@ -1,0 +1,43 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .news-block__date {
+    margin-left: 15px;
+  }
+
+  .container__action {
+    max-width: 95%;
+    margin-left: 15px;
+    margin-bottom: 75px;
+    flex-direction: column-reverse;
+  }
+
+  .text__action {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .image__action {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text__action__back {
+    margin-top: 100px;
+  }
+
+  img.image_top,
+  .image_bottom {
+    display: none;
+  }
+
+  .image_active {
+    display: block;
+    height: 125px;
+  }
+
+  img.arrow {
+    height: 21px;
+    margin-top: 50px;
+  }
+
+}

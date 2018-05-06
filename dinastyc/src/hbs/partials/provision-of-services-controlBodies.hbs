@@ -1,0 +1,37 @@
+<div class="doctor">
+    <div class="info">
+        {{#if controlBodies.name}}
+            <p><span>{{controlBodies.name}}</span></p>
+        {{/if}}
+    </div>
+
+    {{#if controlBodies.adress}}
+        <p><span>Адрес: </span>{{controlBodies.adress}}</p>
+    {{/if}}
+    <div class="phone">
+        {{#if controlBodies.phone1}}
+            <div class="phone-text"><span>Телефон: </span></div>
+        {{/if}}
+        <div class="phone-number">
+            {{#if controlBodies.phone1}}
+                <p>{{controlBodies.phone1}}</p>
+            {{/if}}
+            {{#if controlBodies.phone2}}
+                <p>{{controlBodies.phone2}}</p>
+            {{/if}}
+            {{#if controlBodies.phone3}}
+                <p>{{controlBodies.phone3}}</p>
+            {{/if}}
+        </div>
+    </div>
+
+    <div class="info">
+        {{#if controlBodies.info1}}
+            <p>{{controlBodies.info1}}</p>
+        {{/if}}
+        {{#if controlBodies.info2}}
+            <p>{{controlBodies.info2}}</p>
+        {{/if}}
+    </div>
+
+</div>

@@ -1,0 +1,25 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .main-url,
+  .infertility-treatment-title__h1 {
+    margin-left: 80px;
+  }
+
+  .infertility-treatment-title__h1 {
+    font-size: 36px;
+  }
+
+  .all_awards-container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .all_awards {
+    flex-basis: 45%;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .all_awards h3 {
+    font-size: 0.8em;
+  }
+}

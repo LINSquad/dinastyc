@@ -1,0 +1,28 @@
+<section class="rewards">
+    {{> section-title text='Награды'}}
+
+    <div class="rewards_container">
+        {{#each rewards as |reward|}}
+            <div class="reward">
+                <img src="{{reward.img}}" alt="{{reward.name}}" class="reward__img">
+            </div>
+        {{/each}}
+
+        <div class="rewards-text">
+            <p>Обласной центр
+            репродуктивной медицины
+            Династия - лауреат
+            международных конкурсов,
+            обладатель федеральных и
+            международных сертификатов,
+                дипломов и других наград.</p>
+        </div>
+
+        <div class="rewards-all">
+            <a href="#">смотреть все награды</a>
+        </div>
+    </div>
+    <div class="geometry-container">
+        <div class="geometry4"></div>
+    </div>
+</section>

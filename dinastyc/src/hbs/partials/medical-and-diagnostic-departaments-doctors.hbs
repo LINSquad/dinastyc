@@ -1,0 +1,48 @@
+<div class="medical-and-diagnostic-departaments-block">
+    <div class="medical-and-diagnostic-departaments-img">
+        <img src="{{guide.img}}">
+    </div>
+
+    <div class="medical-and-diagnostic-departaments-conteiner">
+        <div class="doctor">
+            <h4>{{guide.position}}</h4>
+            <div class="info">
+                {{#if guide.name}}
+                    <p><span>{{guide.name}}</span></p>
+                {{/if}}
+                {{#if guide.info}}
+                    <p>{{guide.info}}</p>
+                {{/if}}
+            </div>
+            {{#if guide.adress}}
+                <p><span>Адрес:</span>{{guide.adress}}</p>
+            {{/if}}
+
+            <div class="phone">
+                {{#if guide.phone1}}
+                    <div class="phone-text"><span>Телефон: </span></div>
+                {{/if}}
+                <div class="phone-number">
+                    {{#if guide.phone1}}
+                        <p>{{guide.phone1}}</p>
+                    {{/if}}
+                    {{#if guide.phone2}}
+                        <p>{{guide.phone2}}</p>
+                    {{/if}}
+                </div>
+            </div>
+
+            {{#if guide.email}}
+                <p><span>E-mail:</span>{{guide.email}}</p>
+            {{/if}}
+            {{#if guide.reception}}
+                <p><span>Прием граждан:</span>{{guide.reception}}</p>
+            {{/if}}
+        </div>
+
+        <div class="medical-and-diagnostic-departaments-btn">
+            <button class="btn">СВЯЗАТЬСЯ</button>
+            <a href="{{guide.href}}" class="medical-and-diagnostic-departaments-btn__link">На страницу специалиста</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,131 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .footer {
+    position: relative;
+    padding: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-menu {
+    order: 3;
+  }
+
+  .footer-menu__left{
+    display: none;
+  }
+
+  .footer-menu__right {
+    display: none;
+  }
+
+  .footer-contact .text-link {
+    flex-basis: 100%;
+  }
+
+  .footer-contact .social._big {
+    order: 6;
+    display: flex;
+    flex-basis: 100%;
+    margin-top: 60px;
+    margin-left: 0;
+  }
+
+  .footer-contact .social__item {
+    flex-basis: 25%;
+    margin-right: 0;
+  }
+
+  .footer-contact .social__item a {
+    font-size: 32px;
+  }
+
+  .footer-menu {
+    flex-basis: 100%;
+  }
+
+  .footer-contact {
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  .footer-contact .text-link,
+  .footer-contacts {
+    font-size: 20px;
+    flex-basis: 100%;
+  }
+
+  .footer-contacts span {
+    line-height: 70px;
+    font-size: 16px;
+  }
+
+  .footer-time {
+    flex-basis: 100%;
+  }
+
+  .footer-time p {
+    width: 80%;
+    margin: auto;
+    line-height: 40px;
+  }
+
+  .footer-menu__bottom {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .footer-menu__item {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .footer-menu__link {
+    font-size: 12px;
+  }
+
+  .footer-top .logo__img {
+    width: 110px;
+    height: 115px;
+    margin-left: 0;
+  }
+
+  .footer-contact .main-button__red {
+    order: 4;
+    width: 230px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .footer-contact .main-button__white {
+    order: 5;
+    width: 230px;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .logo-taurus img {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 140px;
+  }
+
+  .footer-bottom .text {
+    font-size: 8px;
+  }
+
+
+
+}

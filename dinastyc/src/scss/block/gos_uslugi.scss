@@ -1,0 +1,31 @@
+.gos-uslugi {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.gos-uslugi p,
+.gos-uslugi img,
+.gos-uslugi a {
+  width: 400px;
+  font-size: 18px;
+}
+
+.gos-uslugi p {
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.gos-uslugi a {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #303030;
+  text-transform: uppercase;
+}
+
+.gos-uslugi img {
+  height: 71px;
+  width: 300px;
+}

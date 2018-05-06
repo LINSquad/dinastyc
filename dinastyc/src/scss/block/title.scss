@@ -1,0 +1,22 @@
+.title {
+
+  &._h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+  &._h3 {
+    font-size: $font-size-h3;
+    line-height: 32px;
+    margin-left: 100px;
+  }
+
+  .section-title & {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.header__top .title {
+  margin-top: 50px;
+}

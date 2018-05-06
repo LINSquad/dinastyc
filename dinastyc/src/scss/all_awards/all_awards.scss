@@ -1,0 +1,28 @@
+.all_awards-container {
+  margin-top: 85px;
+  margin-left: 225px;
+  margin-right: 225px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.all_awards {
+  flex-basis: 25%;
+  margin-right: 30px;
+  margin-bottom: 140px;
+}
+
+.all_awards h3 {
+  width: 90%;
+  font-size: 1.3em;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.all_awards img {
+  width: 100%;
+}
+

@@ -1,0 +1,45 @@
+.rewards {
+  position: relative;
+  margin-top: 170px;
+  margin-left: 200px;
+  padding-bottom: 125px;
+}
+
+.rewards_container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.reward {
+  margin-right: 150px;
+}
+
+.rewards-text {
+  width: 270px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.rewards-text p {
+  margin-bottom: 80px;
+}
+
+.rewards-all {
+  text-transform: uppercase;
+  width: 270px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: -270px;
+}
+
+.geometry4 {
+  position: absolute;
+  bottom: 0;
+  left: -200px;
+  width: 0;
+  height: 0;
+  border-bottom: 2550px solid #fafafa;
+  border-right: 2150px solid transparent;
+  z-index: -1;
+}

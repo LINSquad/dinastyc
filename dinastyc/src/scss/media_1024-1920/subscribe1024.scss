@@ -1,0 +1,24 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+
+  .subscribe {
+    margin-bottom: 70px;
+  }
+
+  .subscribe-form input[type="email"],
+  .subscribe-form input[type="text"] {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .subscribe .btn {
+    margin-top: 0;
+  }
+
+  .subscribe__title {
+    font-size: 18px;
+  }
+
+  .text-of-agreement {
+    margin-top: 10px;
+  }
+}

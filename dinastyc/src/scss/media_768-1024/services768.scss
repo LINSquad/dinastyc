@@ -1,0 +1,112 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .geometry1 {
+    border-top: 125px solid #7a231c;
+    border-left: 110px solid transparent;
+  }
+
+  @media (min-width: 1280px) {
+    .slider {
+      margin-left: 60px;
+    }
+    .main-slider__res {
+      margin-left: 170px;
+    }
+
+    .header-contacts {
+      margin-left: 70px;
+    }
+
+    .content .services .row .block__1 {
+      margin-top: -700px;
+    }
+  }
+
+  .services {
+    margin-left: 80px;
+  }
+
+  .service {
+    margin-bottom: 30px;
+  }
+
+  .service__description {
+    width: 220px;
+    font-size: 12px;
+  }
+
+  .service__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 220px;
+  }
+
+  .services .row {
+    margin-top: 50px;
+    margin-left: -65px;
+    padding-bottom: 100px;
+  }
+
+  .services .row .block__1 {
+    order: 1;
+    margin-left: 0;
+    margin-top: 0;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .services .row .block__2 {
+    order: 2;
+    margin-top: 0;
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin-left: 0;
+  }
+
+  .services .row .block__3 {
+    order: 3;
+    margin-left: 0;
+    margin-top: -150px;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .services .row .block__4 {
+    order: 3;
+    margin-left: 0;
+    margin-top: 75px;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .geometry2 {
+    display: none;
+  }
+
+  .achievements {
+    width: 150px;
+    bottom: 100px;
+  }
+
+  .achievement {
+    width: 150px;
+  }
+
+  .achievement .achievements__value {
+    font-size: 12px;
+    width: 180px;
+  }
+
+  .achievement .achievements__name {
+    font-size: 32px;
+  }
+
+  .achievement:nth-child(3) {
+    order: 4;
+  }
+
+  .achievement:nth-child(4) {
+    order: 3;
+  }
+
+}

@@ -1,0 +1,18 @@
+<div class="questions-and-answers-forms">
+    <h2>Вам может быть интересно</h2>
+
+    <section class="news news-action">
+        {{#each questions-and-answers as |questions-and-answers|}}
+            <div class="news-block">
+                <img class="news-block__img" src="{{questions-and-answers.img}}"/>
+                <div class="news-block__content">
+                    <div class="news-block__title">{{questions-and-answers.title}}</div>
+                    <div class="news-block__date">{{questions-and-answers.date}}</div>
+                    <div class="news-block__text">{{questions-and-answers.description}}</div>
+                    <a href="{{questions-and-answers.link}}" class="news-block__link">подробнее</a>
+                </div>
+            </div>
+        {{/each}}
+    </section>
+
+</div>

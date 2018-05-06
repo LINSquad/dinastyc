@@ -1,0 +1,93 @@
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .patients-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .patients-link a {
+    font-size: 16px;
+  }
+
+  .patients-bottom {
+    margin: 80px 100px;
+  }
+
+  .patients-bottom p {
+    flex-basis: 45%;
+  }
+
+  // Лечение по ОМС
+
+  p.ternament-for-OMS__title {
+    margin-left: 225px;
+    width: 70%;
+  }
+
+  .list-of-organizations {
+    margin-left: 100px;
+    margin-top: 125px;
+  }
+
+  .list-of-organizations__conteiner {
+    margin-left: 80px;
+  }
+
+  .list-of-organizations__block h5 {
+    font-size: 18px;
+  }
+
+  .list-of-organizations__block p {
+    font-size: 14px;
+  }
+
+  .list-of-organizations__block {
+    margin-right: 20px;
+  }
+
+  //База знаний
+
+  .news-action {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  //Карта сайта
+
+  .site-map__conteiner {
+    margin-left: 100px;
+    margin-right: 0;
+  }
+
+  // Вопросы и ответы
+
+  .questions-and-answers-top {
+    margin-left: 100px;
+  }
+
+  .questions-and-answers-forms {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .questions-and-answers-forms .questions-and-answers-form {
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  // Специалисты
+
+  .secession__container {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .secession {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .secession__container h2 {
+    margin-bottom: 50px;
+  }
+}

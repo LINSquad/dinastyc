@@ -1,0 +1,43 @@
+<section class="reviews">
+    {{> section-title text='пациенты О НАС'}}
+
+    <div class="reviews-carousel">
+        <div class="reviews__left-arrow"></div>
+        {{#each reviews as |review|}}
+            <div class="review review-none">
+                <div class="review__title">{{review.title}}</div>
+                <div class="review__description">
+                    <p>{{review.text1}}</p>
+                    <p>{{review.text2}}</p>
+                    <p>{{review.text3}}</p>
+                </div>
+                <a href="#" class="review_link">{{review.author}} / {{review.date}}</a>
+            </div>
+
+            <div class="review review-top">
+                <div class="review__title">{{review.title}}</div>
+                <div class="review__description">
+                    <p>{{review.text1}}</p>
+                    <p>{{review.text2}}</p>
+                    <p>{{review.text3}}</p>
+                </div>
+                <a href="#" class="review_link">{{review.author}} / {{review.date}}</a>
+            </div>
+
+            <div class="review review-substrate">
+                <div class="review__title">{{review.title}}</div>
+                <div class="review__description">
+                    <p>{{review.text1}}</p>
+                    <p>{{review.text2}}</p>
+                    <p>{{review.text3}}</p>
+                </div>
+                <a href="#" class="review_link">{{review.author}} / {{review.date}}</a>
+            </div>
+        {{/each}}
+        <div class="reviews__right-arrow"></div>
+    </div>
+
+    <div class="read-more">
+        <a href="#">Читать все отзывы</a>
+    </div>
+</section>

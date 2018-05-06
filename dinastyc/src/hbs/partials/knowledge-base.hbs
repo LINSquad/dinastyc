@@ -1,0 +1,13 @@
+<section class="news news-action">
+    {{#each knowledge-base as |knowledge-base|}}
+        <div class="news-block">
+            <img class="news-block__img" src="{{knowledge-base.img}}"/>
+            <div class="news-block__content">
+                <div class="news-block__title">{{knowledge-base.title}}</div>
+                <div class="news-block__date">{{knowledge-base.date}}</div>
+                <div class="news-block__text">{{knowledge-base.description}}</div>
+                <a href="{{knowledge-base.link}}" class="news-block__link">подробнее</a>
+            </div>
+        </div>
+    {{/each}}
+</section>
