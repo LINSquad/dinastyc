@@ -1,0 +1,34 @@
+<section class="feedback-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="geometry3"></div>
+                <form action="" class="form _feedback">
+                    <div class="form__title">
+                        Для записи на консультацию
+                        оставьте заявку и мы свяжемся
+                        с Вами в ближайшее время
+                    </div>
+
+                    {{> input-container label="* Ваше имя" type="text"}}
+                    {{> input-container label="* +7 (999) 999-99-99" type="tel"}}
+
+                    <input type="checkbox" name="checkbox" class="checkbox">
+                    <label>
+                        Я даю согласие на получение SMS и e-mail  рассылки
+                    </label>
+
+                    <p>Отправляя данную форму, вы подтверждаете свое согласие на обработку вносимых в нее персональных данных. <span class="text-of-agreement-open">Текст соглашения</span>.</p>
+
+                    <button class="main-button disactive">
+                        <input type="checkbox" name="checkbox" class="checkbox">
+                        <label>Я не робот!</label>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback-form__img"></div>
+</section>

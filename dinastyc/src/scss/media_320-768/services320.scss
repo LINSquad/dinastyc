@@ -1,0 +1,116 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .geometry1 {
+    display: none;
+  }
+
+  .services {
+    margin-left: 45px;
+  }
+
+  .service__image {
+    display: none;
+  }
+
+  .service {
+    margin: 0;
+    margin-top: 25px;
+    border-bottom: 1px solid #7a231e;
+    width: 50%;
+  }
+
+  .service__all {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+    order: 4;
+  }
+
+  .service__description {
+    width: 190%;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .service__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 160%;
+  }
+
+  .services .row {
+    margin-top: 50px;
+    margin-left: 0;
+    padding-bottom: 100px;
+  }
+
+  .services .row .block__1 {
+    order: 1;
+    margin: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .services .row .block__2 {
+    order: 2;
+    margin: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .services .row .block__3 {
+    order: 3;
+    margin: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .services .row .block__4 {
+    order: 3;
+    margin: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .geometry2 {
+    display: none;
+  }
+
+  .achievements {
+    position: relative;
+    width: 100%;
+    bottom: 80px;
+  }
+
+  .achievement {
+    width: 100px;
+    margin-right: 30px;
+  }
+
+  .achievement .achievements__value {
+    border-top: 2px solid #7a231c;
+    font-size: 12px;
+    width: 100px;
+  }
+
+  .achievement .achievements__name {
+    font-size: 32px;
+  }
+
+  .achievement:nth-child(3) {
+    order: 4;
+  }
+
+  .achievement:nth-child(4) {
+    order: 3;
+  }
+
+  .achievement span {
+    border: 0;
+  }
+
+}

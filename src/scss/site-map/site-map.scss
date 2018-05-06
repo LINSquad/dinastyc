@@ -149,3 +149,71 @@ p.title__adress {
   color: #7a231c;
 }
 
+.contact__bottom__driving__directions__container,
+.contact__bottom__addresses__and__phone__numbers__container,
+.contact__bottom__mode__and__schedule__container,
+.contact__bottom__requisites__container {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.contact__bottom__driving__directions__block,
+.contact__bottom__addresses__and__phone__numbers__block,
+.contact__bottom__mode__and__schedule__block,
+.contact__bottom__requisites__block {
+  line-height: 48px;
+}
+
+.contact__bottom__driving__directions__block,
+.contact__bottom__requisites__block {
+  margin-left: 100px;
+  margin-bottom: 90px;
+}
+
+.contact__bottom__driving__directions__block h3,
+.contact__bottom__addresses__and__phone__numbers__block h3,
+.contact__bottom__mode__and__schedule__block h3,
+.contact__bottom__requisites__block h3 {
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+
+.contact__bottom__driving__directions__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__bottom__driving__directions__container h2,
+.contact__bottom__addresses__and__phone__numbers__container h2,
+.contact__bottom__mode__and__schedule__container h2,
+.contact__bottom__requisites__container h2{
+  margin-bottom: 75px;
+}
+
+.contact__bottom__driving__directions__title,
+.contact__bottom__driving__directions__block img {
+  flex-basis: 40%;
+}
+
+.contact__bottom__addresses__and__phone__numbers__container__flex,
+.contact__bottom__mode__and__schedule__container__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.contact__bottom__addresses__and__phone__numbers__container__flex{
+  flex-direction: column;
+  align-content: space-between;
+  height: 1350px;
+}
+
+.contact__bottom__addresses__and__phone__numbers__block {
+  width: 45%;
+  margin-bottom: 45px;
+}
+
+.contact__bottom__mode__and__schedule__block {
+  flex-basis: 43%;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .quality-indicators-title{
+    flex-basis: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .quality-indicators-image {
+    display: none;
+  }
+
+  .quality-indicators-btn {
+    top: 7%;
+    left: 0;
+    width: 100%;
+  }
+}

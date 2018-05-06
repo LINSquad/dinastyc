@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dinastyc</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+<div class="wrapper">
+    {{> header}}
+
+    <main class="content">
+        <div class="main-url"><a href="../index.html">Главная</a> / <a href="../about-the-center.html">О центре</a> / <span>Награды</span></div>
+        <h1 class="infertility-treatment-title__h1">НАГРАДЫ</h1>
+
+
+        <div class="all_awards-container">
+            {{> all_awards all_awards=all_awards.[0]}}
+            {{> all_awards all_awards=all_awards.[1]}}
+            {{> all_awards all_awards=all_awards.[2]}}
+            {{> all_awards all_awards=all_awards.[3]}}
+            {{> all_awards all_awards=all_awards.[4]}}
+            {{> all_awards all_awards=all_awards.[5]}}
+        </div>
+
+        {{> subscribe}}
+    </main>
+
+    {{> footer}}
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="assets/script/vendor.js"></script>
+<script src="assets/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+
+  &__item {
+    margin-right: 25px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    color: #9f9f9f;
+    font-size: 24px;
+  }
+
+  .header__top & {
+    margin-bottom: $header-top-margin-bottom;
+  }
+}

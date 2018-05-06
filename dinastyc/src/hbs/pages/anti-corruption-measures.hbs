@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dinastyc</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+<div class="wrapper">
+    {{> header}}
+
+    <main class="content">
+        <div class="main-url"><a href="../index.html">Главная</a> / <a href="../about-the-center.html">О центре</a> / <span>Антикоррупционные мероприятия</span></div>
+        <h1 class="infertility-treatment-title__h1 anti-corruption-measures__h1">АНТИКОРРУПЦИОННЫЕ МЕРОПРИЯТИЯ</h1>
+        <h3 class="anti-corruption-measures__h3">Нарушениями прав граждан на получение бесплатной медицинской помощи считаются:</h3>
+        <div class="conteiner-title">
+            {{> anti-corruption-measures-title}}
+            {{> anti-corruption-measures-image}}
+        </div>
+        <div class="receiving provision-of-services">
+            <div class="drop-down__service drop-down__service_1">
+                <h3>ДОКУМЕНТЫ</h3>
+                <div class="slider_up-arrow" style="display: none">
+                    <img src="assets/images/slider_up-arrow.png">
+                </div>
+                <div class="slider_down-arrow">
+                    <img src="assets/images/slider_down-arrow.png">
+                </div>
+                <div class="drop-down__service__display" style="display: none;">
+                    {{> provision-of-services-document documents=documents.[0]}}
+                    {{> provision-of-services-document documents=documents.[1]}}
+                    {{> provision-of-services-document documents=documents.[2]}}
+                    {{> provision-of-services-document documents=documents.[3]}}
+                    {{> provision-of-services-document documents=documents.[4]}}
+                    {{> provision-of-services-document documents=documents.[5]}}
+                    {{> provision-of-services-document documents=documents.[6]}}
+                    {{> provision-of-services-document documents=documents.[7]}}
+                    {{> provision-of-services-document documents=documents.[8]}}
+                    {{> provision-of-services-document documents=documents.[9]}}
+                    {{> provision-of-services-document documents=documents.[10]}}
+                    {{> provision-of-services-document documents=documents.[11]}}
+                    {{> provision-of-services-document documents=documents.[12]}}
+                </div>
+            </div>
+
+            <div class="drop-down__service drop-down__service_2">
+                <h3>ОТЧЕТЫ</h3>
+                <div class="slider_up-arrow" style="display: none">
+                    <img src="assets/images/slider_up-arrow.png">
+                </div>
+                <div class="slider_down-arrow">
+                    <img src="assets/images/slider_down-arrow.png">
+                </div>
+                <div class="drop-down__service__display" style="display: none;">
+                    {{> provision-of-services-document documents=documents.[0]}}
+                    {{> provision-of-services-document documents=documents.[1]}}
+                    {{> provision-of-services-document documents=documents.[2]}}
+                    {{> provision-of-services-document documents=documents.[3]}}
+                    {{> provision-of-services-document documents=documents.[4]}}
+                    {{> provision-of-services-document documents=documents.[5]}}
+                    {{> provision-of-services-document documents=documents.[6]}}
+                    {{> provision-of-services-document documents=documents.[7]}}
+                    {{> provision-of-services-document documents=documents.[8]}}
+                    {{> provision-of-services-document documents=documents.[9]}}
+                    {{> provision-of-services-document documents=documents.[10]}}
+                    {{> provision-of-services-document documents=documents.[11]}}
+                    {{> provision-of-services-document documents=documents.[12]}}
+                </div>
+            </div>
+        </div>
+        {{> subscribe}}
+    </main>
+
+    {{> footer}}
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="assets/script/vendor.js"></script>
+<script src="assets/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+.conteiner-title {
+  display: flex;
+  margin-left: 375px;
+  justify-content: space-between;
+  margin-right: 225px;
+  margin-bottom: 100px;
+}
+
+.donor-program-info {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
+.donor-program-info__button,
+.donor-program-info-slide__donors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.donor-program {
+  flex-basis: 40%;
+}
+
+.donor-program p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.donor-program-image {
+  margin-top: -60px;
+}
+
+.donor-program-info__become,
+.donor-program-info__take-advantage {
+  flex-basis: 49%;
+  background-color: #f1f1f1;
+  color: #303030;
+  border-color: #f1f1f1;
+  border-radius: 0;
+  font-size: 18px;
+  height: 80px;
+}
+
+.donor-program-info__become:hover,
+.donor-program-info__take-advantage:hover,
+.donor-program-info__become:focus,
+.donor-program-info__take-advantage:focus {
+  color: #7a231c;
+  box-shadow: 5px 5px 20px -5px black;
+}
+
+.donor-program-info-slide__egg,
+.donor-program-info-slide__sperm {
+  flex-basis: 49%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #b4b4b4;
+  text-align: center;
+}
+
+.donor-program-info-slide__donors .active {
+  color: #7a231c;
+}
+
+.donor-program-info-slide,
+.take-advantage{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.donor-program-info-sliders h4 {
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.donor-program-info-sliders p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 80px;
+}
+
+.demands h4{
+   margin-bottom: 60px;
+}
+
+.demands{
+  margin-bottom: 70px;
+}
+
+.remuneration h4{
+  margin-bottom: 35px;
+}
+
+.take-advantage h4 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+

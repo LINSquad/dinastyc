@@ -1,0 +1,12 @@
+{{#each reviewses as |review|}}
+    <div class="review__block">
+        <div class="review__title">{{review.title}}</div>
+        <div class="review_author">{{review.author}}</div>
+        <div class="review_date">{{review.date}}</div>
+        <div class="review__description">{{review.text}}</div>
+
+        <div class="review__answer"><span>Ответ: </span>{{review.answer}}</div>
+    </div>
+{{/each}}
+
+<div class="all_reviews">еще отзывы</div>

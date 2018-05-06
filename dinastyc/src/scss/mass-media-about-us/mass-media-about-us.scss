@@ -1,0 +1,53 @@
+.mass-media-about-us__slide {
+  margin: 200px 225px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mass-media-about-us-container {
+  margin-left: 225px;
+  margin-right: 225px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.all_mass-media-about-us {
+  margin-bottom: 100px;
+}
+
+.all_mass-media-about-us h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.all_mass-media-about-us h4 {
+  font-size: 18px;
+}
+
+.video__content {
+  flex-basis: 49%;
+}
+
+video {
+  width: 100%;
+}
+
+.video__content h4 {
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 135px;
+}
+
+.all_video {
+  font-size: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.all_video a:hover{
+  border-bottom: 1px solid #7a231c;
+}

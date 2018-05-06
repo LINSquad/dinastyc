@@ -1,0 +1,132 @@
+.provision-of-services {
+  margin-top: 30px;
+}
+
+.provision-of-services .drop-down__service {
+  width: 1300px;
+}
+
+.provision-of-services .drop-down__service_1 .drop-down__service__display {
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.provision-of-services .drop-down__service__display .document {
+   width: 45%;
+   margin-top: 30px;
+   display: flex;
+}
+
+.provision-of-services h3 {
+  width: 95%;
+}
+
+.provision-of-services .drop-down__service__display .document p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.provision-of-services .drop-down__service_2 .drop-down__service__display {
+  height: 200px;
+}
+
+.provision-of-services h4 {
+  margin-top: 40px;
+  width: 50%;
+}
+
+.provision-of-services .drop-down__service__display .grounds {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.provision-of-services .drop-down__service_3 .drop-down__service__display {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+}
+
+.doctor {
+  width: 40%;
+}
+
+.doctor h4 {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.doctor p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.doctor span {
+  font-weight: bold;
+}
+
+.doctor .info {
+  margin-bottom: 15px;
+}
+
+.provision-of-services .drop-down__service_4 .drop-down__service__display,
+.provision-of-services .drop-down__service_5 .drop-down__service__display,
+.provision-of-services .drop-down__service_6 .drop-down__service__display {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+}
+
+.provision-of-services .drop-down__service_5 .drop-down__service__display {
+  height: 470px;
+}
+
+.provision-of-services .drop-down__service_6 .drop-down__service__display {
+  height: 950px;
+}
+
+.provision-of-services .drop-down__service_4 .info,
+.provision-of-services .drop-down__service_5 .info,
+.provision-of-services .drop-down__service_6 .info{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.provision-of-services .drop-down__service_4 p,
+.provision-of-services .drop-down__service_5 p,
+.provision-of-services .drop-down__service_6 p{
+  font-size: 18px;
+}
+
+.provision-of-services .drop-down__service:last-child {
+  margin-bottom: 80px;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone-text {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.drop-down__service_3 .phone-text {
+  font-size: 16px;
+}
+
+
+

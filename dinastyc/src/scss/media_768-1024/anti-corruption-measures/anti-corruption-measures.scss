@@ -1,0 +1,20 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .anti-corruption-measures__h3 {
+    margin-left: 80px;
+    width: 80%;
+  }
+
+  .anti-corruption-measures-title,
+  .anti-corruption-measures-image {
+    flex-basis: 100%;
+  }
+
+  .anti-corruption-measures-image {
+    order: -1;
+    margin-bottom: 40px;
+  }
+
+  .anti-corruption-measures-image img {
+    width: 100%;
+  }
+}

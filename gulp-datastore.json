@@ -23,15 +23,15 @@
         },
         {
           "name": "Урология и андрология",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Лабораторные анализы",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Акушерская помощь",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Донорская программа",
@@ -39,11 +39,11 @@
         },
         {
           "name": "Ультразвуковое исследование",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Диагностика и лечение гинекологических заболеваний",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         }
       ]
     },
@@ -155,15 +155,15 @@
         },
         {
           "name": "Акушерская помощь",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Гинекологические заболевания",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Урология и Андрология",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Донорская программа",
@@ -171,11 +171,11 @@
         },
         {
           "name": "Лабораторные анализы",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         },
         {
           "name": "Ультразвуковое исследование",
-          "href": "#"
+          "href": "../infertility_treatment.html"
         }
       ]
     },
@@ -207,49 +207,57 @@
       "title": "Диагностика и лечение гинекологических заболеваний",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img1.png",
-      "imageFirst": false
+      "imageFirst": false,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Лечение бесплодия",
       "description": "Базовые методы ЭКО и ИКСИ. Применение ПИКСИ и других методов.",
       "img": "assets/images/servise_img2.png",
-      "imageFirst": false
+      "imageFirst": false,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Акушерская помощь",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img3.png",
-      "imageFirst": true
+      "imageFirst": true,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Урология и андрология",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img4.png",
-      "imageFirst": false
+      "imageFirst": false,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Донорская программа",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img5.png",
-      "imageFirst": true
+      "imageFirst": true,
+      "href": "../donor-program.html"
     },
     {
       "title": "Центр клеточных технологий",
       "description": "Программы долгосрочного хранения своловых клеток пуповинной крови",
       "img": "assets/images/servise_img6.png",
-      "imageFirst": false
+      "imageFirst": false,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Лабораторные анализы",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img7.png",
-      "imageFirst": false
+      "imageFirst": false,
+      "href": "../infertility_treatment.html"
     },
     {
       "title": "Ультразвуковое исследование",
       "description": "По своей сути рыбатекст является альтернативной традиционному lorem ipsum.",
       "img": "assets/images/servise_img8.png",
-      "imageFirst": true
+      "imageFirst": true,
+      "href": "../infertility_treatment.html"
     }
   ],
   "achievements": [

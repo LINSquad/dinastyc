@@ -1,0 +1,19 @@
+@media (max-width: 1023px) and (min-width: 768px) {
+  .partners {
+    margin-top: 0;
+    margin-left: 120px;
+    margin-bottom: 130px;
+    width: 100%;
+  }
+
+  .partners-container {
+    margin-top: 0;
+    margin-left: -30px;
+  }
+
+  .partner {
+    flex-basis: 14%;
+    text-align: center;
+    margin-top: 70px;
+  }
+}
